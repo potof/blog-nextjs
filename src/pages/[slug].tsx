@@ -69,7 +69,6 @@ const Post: NextPage<Props> = ({ post }) => {
       <main className={styles.main}>
         <article>
           <h1 className={styles.title}>{post.title}</h1>
-          {post.coverImage}
           <div className={styles.grid}>
             <div>
               <Image
