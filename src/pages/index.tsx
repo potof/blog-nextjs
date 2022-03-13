@@ -27,26 +27,26 @@ const Home: NextPage<Props> = ({ allPosts }) => {
 
         <Stack w="780px" h="100%">
           {allPosts.map((post) => (
-            <HStack p={3} rounded="md" w="100%" bg="white" boxShadow="base">
-              <Image
-                borderRadius="md"
-                boxSize="65px"
-                src={post.coverImage}
-                alt={post.title}
-              />
-              <Stack>
-                <Box p={2} rounded="md" w="100%">
-                  <Text fontSize={10}>{post.date}</Text>
-                  <Link href="/[slug]" as={`/${post.slug}`}>
-                    <a>
+            <Link href="/[slug]" as={`/${post.slug}`}>
+              <a>
+                <HStack p={3} rounded="md" w="100%" bg="white" boxShadow="base">
+                  <Image
+                    borderRadius="md"
+                    boxSize="65px"
+                    src={post.coverImage}
+                    alt={post.title}
+                  />
+                  <Stack>
+                    <Box p={2} rounded="md" w="100%">
+                      <Text fontSize={10}>{post.date}</Text>
                       <Heading as="h2" size="sm">
                         {post.title}
                       </Heading>
-                    </a>
-                  </Link>
-                </Box>
-              </Stack>
-            </HStack>
+                    </Box>
+                  </Stack>
+                </HStack>
+              </a>
+            </Link>
           ))}
         </Stack>
       </Box>
