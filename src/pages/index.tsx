@@ -24,15 +24,16 @@ const Home: NextPage<Props> = ({ allPosts }) => {
         display="flex"
         alignItems="center"
         justifyContent="center"
+        pt="3"
       >
         <Head>
           <title>ぽとふバーガーDX</title>
           <link rel="icon" href="/favicon.png" />
         </Head>
 
-        <Stack w="780px" h="100%" bg="white">
+        <Stack w="780px" h="100%">
           {allPosts.map((post) => (
-            <HStack p={3}>
+            <HStack p={3} rounded="md" w="100%" bg="white">
               <Image
                 borderRadius="md"
                 boxSize="50px"
@@ -40,7 +41,7 @@ const Home: NextPage<Props> = ({ allPosts }) => {
                 alt={post.title}
               />
               <Stack>
-                <Box p={2} bg="white" rounded="md">
+                <Box p={2} rounded="md" w="100%">
                   <Text>{post.date}</Text>
                   <Heading as="h2" size="sm">
                     <Link href="/[slug]" as={`/${post.slug}`}>
