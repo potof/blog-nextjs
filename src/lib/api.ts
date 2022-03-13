@@ -7,25 +7,30 @@ type Post = {
   content: string;
   title: string;
   date: string;
+  coverImage: string;
+  categories: string[];
+  tags: string[];
 };
 
 const postsDirectory = path.join(process.cwd(), "content");
 
 /**
- * postsDirectory 以下のディレクトリ名を取得する
+ * postsDirectory 以下のファイル名を取得する
  */
 export function getPostSlugs() {
   const allDirents = fs.readdirSync(postsDirectory, { withFileTypes: true });
-  return allDirents
-    .filter((dirent) => dirent.isDirectory())
-    .map(({ name }) => name);
+  return (
+    allDirents
+      // .filter((dirent) => dirent.isDirectory())
+      .map(({ name }) => name)
+  );
 }
 
 /**
  * 指定したフィールド名から、記事のフィールドの値を取得する
  */
 export function getPostBySlug(slug: string, fields: string[] = []) {
-  const fullPath = path.join(postsDirectory, slug, "index.md");
+  const fullPath = path.join(postsDirectory, slug);
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
 
@@ -34,16 +39,24 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
     content: "",
     title: "",
     date: "",
+    coverImage: "",
+    categories: [],
+    tags: [],
   };
 
   fields.forEach((field) => {
     if (field === "slug") {
       items[field] = slug;
-    }
-    if (field === "content") {
+    } else if (field === "content") {
       items[field] = content;
-    }
-    if (field === "title" || field === "date") {
+    } else if (field === "coverImage") {
+      items[field] = path.join("/images", data[field]);
+    } else if (
+      field === "title" ||
+      field === "date" ||
+      field === "categories" ||
+      field === "tags"
+    ) {
       items[field] = data[field];
     }
   });
