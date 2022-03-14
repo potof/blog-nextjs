@@ -27,7 +27,7 @@ const Home: NextPage<Props> = ({ allPosts }) => {
 
         <Stack w="780px" h="100%">
           {allPosts.map((post) => (
-            <Link href="/[slug]" as={`/${post.slug}`}>
+            <Link href="/[slug]" as={`/${post.slug}`} key={post.title}>
               <a>
                 <HStack p={3} rounded="md" w="100%" bg="white" boxShadow="base">
                   <Image
