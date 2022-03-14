@@ -5,7 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { getAllPosts, getPostBySlug } from "../lib/api";
 import markdownToHtml from "../lib/markdownToHtml";
-import { Box, Heading, Text } from "@chakra-ui/react";
+import { Box, Heading, Text, Stack, HStack, VStack } from "@chakra-ui/react";
 import Header from "../lib/header";
 import Footer from "../lib/footer";
 
@@ -60,27 +60,33 @@ const Post: NextPage<Props> = ({ post }) => {
     return <ErrorPage statusCode={404} />;
   }
   return (
-    <Box>
-      <Head>
-        <title>{post.title}</title>
-        <meta name="description" content={post.title} />
-        <meta property="og:image" content={post.coverImage} />
-      </Head>
+    <>
       <Header />
-      <Heading as="h1">{post.title}</Heading>
-
-      <Text>Update : {post.date}</Text>
-      <Image
-        src={post.coverImage}
-        alt={post.title}
-        layout="intrinsic"
-        width={500}
-        height={500}
-      ></Image>
-
-      <Box dangerouslySetInnerHTML={{ __html: post.content }} />
+      <Box display="flex" alignItems="center" justifyContent="center" py="3">
+        <Head>
+          <title>{post.title}</title>
+          <meta name="description" content={post.title} />
+          <meta property="og:image" content={post.coverImage} />
+        </Head>
+        <article>
+          <Stack w="780px" h="100%" p="3">
+            <VStack p={3} rounded="md" w="100%" bg="white" boxShadow="base">
+              <Heading as="h1">{post.title}</Heading>
+              <Text>Update : {post.date}</Text>
+              <Image
+                src={post.coverImage}
+                alt={post.title}
+                layout="intrinsic"
+                width={500}
+                height={500}
+              ></Image>
+              <Box dangerouslySetInnerHTML={{ __html: post.content }} />
+            </VStack>
+          </Stack>
+        </article>
+      </Box>
       <Footer />
-    </Box>
+    </>
   );
 };
 

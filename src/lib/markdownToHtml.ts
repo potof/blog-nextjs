@@ -1,7 +1,13 @@
+import Image from "next/image";
+import React from "react";
 import { unified } from "unified";
 import remarkParse from "remark-parse";
 import remark2rehype from "remark-rehype";
 import rehypeStringify from "rehype-stringify";
+import rehypeParse from "rehype-parse";
+import rehypeReact from "rehype-react";
+import CustomLink from "./CustomLink";
+import CustomImage from "./CustomImage";
 
 // Markdown 形式の文字列を受け取って、HTML 形式の文字列を返す
 export default async function markdownToHtml(markdown: string) {
@@ -9,6 +15,33 @@ export default async function markdownToHtml(markdown: string) {
     .use(remarkParse) // markdown -> mdast の変換
     .use(remark2rehype) // mdast -> hast の変換
     .use(rehypeStringify) // hast -> html の変換
+    .use(rehypeParse, { fragment: true })
+    .use(rehypeReact, {
+      // passNode: true,
+      // Fragment: React.Fragment,
+      createElement: React.createElement,
+      components: {
+        a: CustomLink,
+        // img: CustomImage,
+      },
+    } as any)
     .process(markdown); // 実行
+  // return parseReact(result.toString());
+  return result.toString();
+}
+
+function parseReact(html: string) {
+  const result = unified()
+    .use(rehypeParse, { fragment: true })
+    .use(rehypeReact, {
+      // passNode: true,
+      Fragment: React.Fragment,
+      createElement: React.createElement,
+      components: {
+        a: CustomLink,
+        img: CustomImage,
+      },
+    } as any)
+    .processSync(html).value; // 実行
   return result.toString();
 }

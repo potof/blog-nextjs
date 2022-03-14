@@ -19,7 +19,7 @@ const Home: NextPage<Props> = ({ allPosts }) => {
   return (
     <>
       <Header />
-      <Box display="flex" alignItems="center" justifyContent="center" pt="3">
+      <Box display="flex" alignItems="center" justifyContent="center" py="3">
         <Head>
           <title>ぽとふバーガーDX</title>
           <link rel="icon" href="/favicon.png" />
