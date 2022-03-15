@@ -9,7 +9,6 @@ type Post = {
   date: string;
   coverImage: string;
   categories: string[];
-  tags: string[];
 };
 
 const postsDirectory = path.join(process.cwd(), "content");
@@ -37,7 +36,6 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
     date: "",
     coverImage: "",
     categories: [],
-    tags: [],
   };
 
   fields.forEach((field) => {
@@ -49,8 +47,8 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
       items[field] = path.join("/images", data[field]);
     } else if (field === "title" || field === "date") {
       items[field] = data[field];
-    } else if (field === "categories" || field === "tags") {
-      items[field] = data[field] || "";
+    } else if (field === "categories") {
+      items[field] = data[field][0];
     }
   });
   return items;
