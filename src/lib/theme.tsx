@@ -5,7 +5,8 @@ const theme = extendTheme({
     global: {
       body: {
         backgroundColor: "gray.100",
-        color: "#5a5a5a",
+        // color: "#5a5a5a",
+        // fontWeight: "500",
       },
     },
   },

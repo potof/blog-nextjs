@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import ErrorPage from "next/error";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import { getAllPosts, getPostBySlug } from "../lib/api";
 import markdownToHtml from "../lib/markdownToHtml";
 import { Box, Heading, Text, Stack, HStack, VStack } from "@chakra-ui/react";
@@ -71,16 +72,38 @@ const Post: NextPage<Props> = ({ post }) => {
         <article>
           <Stack w="780px" h="100%" p="3">
             <VStack p={3} rounded="md" w="100%" bg="white" boxShadow="base">
-              <Heading as="h1">{post.title}</Heading>
-              <Text>Update : {post.date}</Text>
-              <Image
-                src={post.coverImage}
-                alt={post.title}
-                layout="intrinsic"
-                width={500}
-                height={500}
-              ></Image>
-              <Box dangerouslySetInnerHTML={{ __html: post.content }} />
+              <Text textAlign="left">{post.date}</Text>
+              <Heading as="h1" pb="6">
+                {post.title}
+              </Heading>
+              <Box
+                sx={{
+                  h2: {
+                    bg: "#019cd0",
+                    color: "white",
+                    p: "3",
+                    rounded: "md",
+                    fontSize: "1.143em",
+                    my: "6",
+                    fontWeight: "bold",
+                  },
+                  ul: {
+                    bg: "#EEF9FF",
+                    p: "3",
+                    pl: "12",
+                    my: "6",
+                    rounded: "md",
+                    fontWeight: "bold",
+                  },
+                  p: {
+                    my: "16px",
+                  },
+                }}
+                dangerouslySetInnerHTML={{ __html: post.content }}
+              />
+              <Link href="/">
+                <a>一覧にもどる</a>
+              </Link>
             </VStack>
           </Stack>
         </article>
