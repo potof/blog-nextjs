@@ -71,7 +71,9 @@ const Post: NextPage<Props> = ({ post }) => {
         </Head>
         <Stack w="780px" h="100%" p="3">
           <VStack p={3} rounded="md" w="100%" bg="white" boxShadow="base">
-            <Text textAlign="left">{post.date}</Text>
+            <Text textAlign="left">
+              <time>{post.date}</time>
+            </Text>
             <Heading as="h1" pb="6">
               {post.title}
             </Heading>
