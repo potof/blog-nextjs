@@ -5,7 +5,7 @@ import { getAllPosts } from "../lib/api";
 import { Box, Heading, Text, Stack, HStack, Image } from "@chakra-ui/react";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import { CategoryLink } from "../components/category";
+import CategoryList from "../components/categoryList";
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
@@ -31,11 +31,9 @@ const Home: NextPage<Props> = ({ allPosts, allCategories }) => {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Header />
-      <Box p="2" alignItems="center" justifyContent="center">
-        {allCategories.map((category: string) => {
-          return CategoryLink(category);
-        })}
-      </Box>
+
+      <CategoryList categories={allCategories} />
+
       <Box display="flex" alignItems="center" justifyContent="center" py="3">
         <Stack w="780px" h="100%">
           {allPosts.map((post) => (
