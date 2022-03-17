@@ -3,15 +3,15 @@ import Head from "next/head";
 import Link from "next/link";
 import { getAllPosts } from "../lib/api";
 import { Box, Heading, Text, Stack, HStack, Image } from "@chakra-ui/react";
-import Header from "../lib/header";
-import Footer from "../lib/footer";
-import { CategoryLink } from "../lib/category";
+import Header from "../components/header";
+import Footer from "../components/footer";
+import { CategoryLink } from "../components/category";
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
 export const getStaticProps = async () => {
   const allPosts = getAllPosts();
-  const allCategories = Array.from(
+  const allCategories: string[] = Array.from(
     new Set(
       allPosts.map((post) => {
         return post.categories;
