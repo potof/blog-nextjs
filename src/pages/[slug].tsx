@@ -55,21 +55,18 @@ export const getStaticProps = async ({ params }: any) => {
 };
 
 const components = {
-  img: (props: any) =>
-    // height and width are part of the props, so they get automatically passed here with {...props}
-    {
-      console.log(props);
-      return (
-        <div style={{ width: `${props.width}px`, height: `${props.height}px` }}>
-          <Image
-            {...props}
-            src={"/" + props.src}
-            layout="responsive"
-            loading="lazy"
-          />
-        </div>
-      );
-    },
+  img: (props: any) => {
+    return (
+      <Box w="${props.width}" h="${props.height}">
+        <Image
+          {...props}
+          src={"/" + props.src}
+          layout="responsive"
+          loading="lazy"
+        />
+      </Box>
+    );
+  },
 };
 
 const Post: NextPage<Props> = ({ post }) => {
@@ -117,9 +114,9 @@ const Post: NextPage<Props> = ({ post }) => {
                   my: "16px",
                 },
               }}
-            />
-            <MDXRemote {...post.mdxSource} components={components} />
-
+            >
+              <MDXRemote {...post.mdxSource} components={components} />
+            </Box>
             <Link href="/">
               <a>一覧にもどる</a>
             </Link>
