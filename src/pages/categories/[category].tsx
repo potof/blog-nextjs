@@ -1,16 +1,30 @@
 import type { InferGetStaticPropsType, NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
-import { getAllPosts } from "../lib/api";
+import { getAllPosts } from "../../lib/api";
 import { Box, Heading, Text, Stack, HStack, Image } from "@chakra-ui/react";
-import Header from "../lib/header";
-import Footer from "../lib/footer";
-import { CategoryLink } from "../lib/category";
+import Header from "../../lib/header";
+import Footer from "../../lib/footer";
+import { CategoryLink } from "../../lib/category";
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
-export const getStaticProps = async () => {
-  const allPosts = getAllPosts();
+export const getStaticPaths = async () => {
+  const posts = getAllPosts();
+  return {
+    paths: posts.map((post) => {
+      return {
+        params: {
+          category: post.categories,
+        },
+      };
+    }),
+    fallback: false,
+  };
+};
+
+export const getStaticProps = async ({ params }: any) => {
+  const allPosts = getAllPosts(params.category);
   const allCategories = Array.from(
     new Set(
       allPosts.map((post) => {
@@ -23,7 +37,7 @@ export const getStaticProps = async () => {
   };
 };
 
-const Home: NextPage<Props> = ({ allPosts, allCategories }) => {
+const CategoryPage: NextPage<Props> = ({ allPosts, allCategories }) => {
   return (
     <>
       <Head>
@@ -67,4 +81,4 @@ const Home: NextPage<Props> = ({ allPosts, allCategories }) => {
   );
 };
 
-export default Home;
+export default CategoryPage;

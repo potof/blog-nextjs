@@ -51,7 +51,12 @@ export const categories: CategoriesType = {
 
 export const CategoryLink = (category: string) => {
   return (
-    <Link href="/" passHref>
+    <Link
+      href="/categories/[category]"
+      as={`/categories/${category}`}
+      key={category}
+      passHref
+    >
       <Tag as="a" variant="solid" colorScheme="gray" m="0.5" size="sm">
         {category in categories && (
           <TagLeftIcon boxSize="12px" as={categories[category].icon} />
