@@ -52,6 +52,9 @@ const Home: NextPage<Props> = ({ allPosts, allCategories }) => {
                       <Heading as="h2" size="sm">
                         {post.title}
                       </Heading>
+                      <Text fontSize="sm" color="gray.500">
+                        {post.desc}
+                      </Text>
                     </Box>
                   </Stack>
                 </HStack>

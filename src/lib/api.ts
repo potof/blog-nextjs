@@ -22,6 +22,8 @@ export function getPostBySlug(slug: string) {
     data: { coverImage, title, date, categories },
     content,
   } = matter(fileContents);
+  const descMatch: RegExpMatchArray | null = content.match(/\n.*\n/);
+  let desc: string = descMatch ? descMatch[0].replace("\n", "") : "";
 
   return {
     slug: slug,
@@ -30,6 +32,7 @@ export function getPostBySlug(slug: string) {
     date: date,
     coverImage: path.join("/images", coverImage),
     categories: categories[0],
+    desc: desc,
   };
 }
 
