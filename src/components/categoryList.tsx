@@ -1,5 +1,5 @@
 import { Box } from "@chakra-ui/react";
-import { CategoryLink } from "../components/category";
+import { CategoryLink } from "./category";
 
 const CategoryList = ({ categories }: { categories: string[] }) => {
   return (
