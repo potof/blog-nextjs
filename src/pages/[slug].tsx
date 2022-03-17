@@ -6,9 +6,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { getAllPosts, getPostBySlug } from "../lib/api";
 import markdownToHtml from "../lib/markdownToHtml";
-import { Box, Heading, Text, Stack, HStack, VStack } from "@chakra-ui/react";
+import { Box, Heading, Text, Stack, VStack } from "@chakra-ui/react";
 import Header from "../lib/header";
 import Footer from "../lib/footer";
+import { serialize } from "next-mdx-remote/serialize";
+import { MDXRemote } from "next-mdx-remote";
+import imageSize from "rehype-img-size";
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
@@ -16,7 +19,7 @@ type Props = InferGetStaticPropsType<typeof getStaticProps>;
  * 記事のパスを取得する
  */
 export const getStaticPaths = async () => {
-  const posts = getAllPosts(["slug"]);
+  const posts = getAllPosts();
   return {
     paths: posts.map((post) => {
       return {
@@ -33,26 +36,40 @@ export const getStaticPaths = async () => {
  * 記事の内容を取得する
  */
 export const getStaticProps = async ({ params }: any) => {
-  const post = getPostBySlug(params.slug, [
-    "slug",
-    "title",
-    "date",
-    "content",
-    "coverImage",
-    "categories",
-    "tags",
-  ]);
+  const post = getPostBySlug(params.slug);
   // Markdown を HTML に変換する
-  const content = await markdownToHtml(post.content);
+  const mdxSource = await serialize(post.content, {
+    mdxOptions: {
+      rehypePlugins: [[imageSize as any, { dir: "public" }]],
+    },
+  });
   // content を詰め直して返す
   return {
     props: {
       post: {
         ...post,
-        content,
+        mdxSource,
       },
     },
   };
+};
+
+const components = {
+  img: (props: any) =>
+    // height and width are part of the props, so they get automatically passed here with {...props}
+    {
+      console.log(props);
+      return (
+        <div style={{ width: `${props.width}px`, height: `${props.height}px` }}>
+          <Image
+            {...props}
+            src={"/" + props.src}
+            layout="responsive"
+            loading="lazy"
+          />
+        </div>
+      );
+    },
 };
 
 const Post: NextPage<Props> = ({ post }) => {
@@ -100,8 +117,9 @@ const Post: NextPage<Props> = ({ post }) => {
                   my: "16px",
                 },
               }}
-              dangerouslySetInnerHTML={{ __html: post.content }}
             />
+            <MDXRemote {...post.mdxSource} components={components} />
+
             <Link href="/">
               <a>一覧にもどる</a>
             </Link>
