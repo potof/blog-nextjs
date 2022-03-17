@@ -1,10 +1,10 @@
 ---
 title: "知床でグランピングが最高だった（知床ヴィラホテルフリーズ）"
 date: "2022-01-29"
-categories: 
-  - "hokkaido-travel-and-gourmet"
+categories:
+  - "hokkaido"
   - "travel-and-gourment"
-tags: 
+tags:
   - "知床"
   - "知床ヴィラホテルフリーズ"
   - "グランピング"
@@ -21,7 +21,7 @@ coverImage: "Pasted-image-20220129235552.jpg"
 
 公式サイト
 
-[参考知床VILLA HOTEL FREEZE 【公式】〜知床の大自然を満喫できる宿〜null](http://www.freeze39.com/index.html)
+[参考知床 VILLA HOTEL FREEZE 【公式】〜知床の大自然を満喫できる宿〜null](http://www.freeze39.com/index.html)
 
 ## グランピング施設の「知床ヴィラホテルフリーズ」に行ってきいました
 
@@ -71,7 +71,6 @@ coverImage: "Pasted-image-20220129235552.jpg"
 
 ![知床ヴィラホテルフリーズの食事](images/Pasted-image-20220130000552.jpg)
 
-  
 後は焼くだけ、、、突然のキャンプ感にどきどきしつつ少し量は多いですが美味しいです。
 
 空を見上げると星の数が本当にすごいです。石垣島で空を見たときもすごいと思いましたが、知床も同じぐらい感動しました。ずっと見ていたいところですがすぐに首が痛くなるのでやめました。
@@ -82,7 +81,6 @@ coverImage: "Pasted-image-20220129235552.jpg"
 
 ![知床ヴィラホテルフリーズの食事](images/Pasted-image-20220130001008.jpg)
 
-  
 朝ごはんも用意してくれます。朝ごはんはキャンプな感じではなくパンですが、使っている食器とかがたぶんキャンプ用なのでキャンプな気分が味わえます。
 
 いい気分で知床観光やそのまま部屋でまったりと本を読んだりするのを考えるだけでテンションあがりますよね。

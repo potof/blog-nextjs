@@ -1,8 +1,8 @@
 ---
 title: "紀伊国屋 黒毛和牛カレー（880円）を食べてみた｜ 野良レトルトカレー"
 date: "2020-01-02"
-categories: 
-  - "retort-curry"
+categories:
+  - "curry"
 coverImage: "DSC01986.jpeg"
 ---
 
@@ -18,7 +18,7 @@ coverImage: "DSC01986.jpeg"
 
 どのあたりが美味しそうかと言うと、
 
-- **880円（税込み 950円）**
+- **880 円（税込み 950 円）**
 
 もするところです！
 
@@ -38,7 +38,7 @@ https://www.youtube.com/watch?v=stKhFabGVLg
 
 ![](images/IMG_8128.jpeg)
 
-2019年 12月末、ここは上野駅にある KINOKUNIYA 。
+2019 年 12 月末、ここは上野駅にある KINOKUNIYA 。
 
 本棚のようにレトルトカレーが並ぶ中、ひときわ目立つ漆黒のカレーがそこにあった。
 
@@ -108,7 +108,7 @@ KINOKUNIYA
 
 ![](images/DSC01996.jpeg)
 
-結果的に 3ブロックだった。もっとほしい。
+結果的に 3 ブロックだった。もっとほしい。
 
 ![](images/DSC01999.jpeg)
 
@@ -138,7 +138,7 @@ KINOKUNIYA Style
 
 Web から購入する場合は、紀伊国屋公式サイトで注文できます。
 
-\[sanko href="https://www.super-kinokuniya.jp/eshop/items/10-4960320002749/index.php" title="黒毛和牛カレー" site="紀伊国屋Webサイト"\]
+\[sanko href="https://www.super-kinokuniya.jp/eshop/items/10-4960320002749/index.php" title="黒毛和牛カレー" site="紀伊国屋 Web サイト"\]
 
 ## まとめ
 

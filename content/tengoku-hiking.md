@@ -1,9 +1,9 @@
 ---
 title: "都心からお手軽な天国ハイキングをひたすら歩いてみた（神奈川・鎌倉）"
 date: "2022-01-03"
-categories: 
-  - "kanto-travel-and-gourmet"
-tags: 
+categories:
+  - "kanto"
+tags:
   - "北鎌倉"
   - "ハイキング"
   - "天国ハイキング"
