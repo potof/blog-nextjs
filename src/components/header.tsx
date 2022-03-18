@@ -1,4 +1,3 @@
-// import Link from "next/link";
 import { Box, Text, Stack, Image } from "@chakra-ui/react";
 import Link from "next/link";
 
@@ -10,8 +9,6 @@ const Header = () => {
         alignItems="center"
         justifyContent="center"
         minHeight="10vh"
-        // gap={8}
-        // mb={8}
         w="full"
         bg="#019cd0"
       >
