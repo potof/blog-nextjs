@@ -17,7 +17,7 @@ export const getStaticProps = async () => {
         return post.categories;
       })
     )
-  );
+  ).sort();
   return {
     props: { allPosts, allCategories },
   };

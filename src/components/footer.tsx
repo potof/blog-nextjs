@@ -26,7 +26,7 @@ const Footer = () => {
               ></Image>
             </a>
           </Link>
-          <CategoryList categories={Object.keys(categories)} />
+          <CategoryList categories={Object.keys(categories).sort()} />
 
           <Text pt={6} fontSize={"sm"} textAlign={"center"} color="gray.100">
             © 2022 ぽとふバーガーDX All rights reserved.
