@@ -20,11 +20,12 @@ const Header = () => {
                 alt="ぽとふバーガーDX"
                 height={62}
                 width={378}
+                _hover={{ opacity: 0.5 }}
               ></Image>
             </a>
           </Link>
 
-          <Text color="white">About</Text>
+          {/* <Text color="white">About</Text> */}
         </Stack>
       </Box>
     </>

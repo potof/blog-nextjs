@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { Box, Text, Stack, Image } from "@chakra-ui/react";
+import { categories } from "./category";
+import CategoryList from "./categoryList";
 
 const Footer = () => {
   return (
@@ -20,9 +22,12 @@ const Footer = () => {
                 alt="ぽとふバーガーDX"
                 height={50}
                 width={302.88}
+                _hover={{ opacity: 0.5 }}
               ></Image>
             </a>
           </Link>
+          <CategoryList categories={Object.keys(categories)} />
+
           <Text pt={6} fontSize={"sm"} textAlign={"center"} color="gray.100">
             © 2022 ぽとふバーガーDX All rights reserved.
           </Text>

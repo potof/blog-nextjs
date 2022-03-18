@@ -57,7 +57,14 @@ export const CategoryLink = (category: string) => {
       key={category}
       passHref
     >
-      <Tag as="a" variant="solid" colorScheme="gray" m="0.5" size="sm">
+      <Tag
+        as="a"
+        variant="solid"
+        colorScheme="gray"
+        m="0.5"
+        size="sm"
+        _hover={{ opacity: 0.5 }}
+      >
         {category in categories && (
           <TagLeftIcon boxSize="12px" as={categories[category].icon} />
         )}
