@@ -53,7 +53,14 @@ const CategoryPage: NextPage<Props> = ({ allPosts, allCategories }) => {
           {allPosts.map((post) => (
             <Link href="/[slug]" as={`/${post.slug}`} key={post.title}>
               <a>
-                <HStack p={3} rounded="md" w="100%" bg="white" boxShadow="base">
+                <HStack
+                  p={3}
+                  rounded="md"
+                  w="100%"
+                  bg="white"
+                  boxShadow="base"
+                  _hover={{ opacity: 0.7 }}
+                >
                   <Image
                     borderRadius="md"
                     boxSize="65px"
