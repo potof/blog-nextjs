@@ -6,7 +6,7 @@ categories:
 coverImage: "DSC02014.jpeg"
 ---
 
-こんにちは。リンツのスイスシンが大好きなぽとふです。
+リンツの福袋を購入しました。
 
 ![](images/DSC02001.jpeg)
 

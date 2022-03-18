@@ -1,12 +1,10 @@
 ---
 title: "【随時更新】ぼくの本棚（何度も読み返したおすすめマンガ）18冊"
 date: "2020-01-21"
-categories: 
+categories:
   - "books"
 coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 ---
-
-こんにちは。マンガだいすきぽとふです。
 
 わたしのマンガ本棚をご紹介します。
 
@@ -30,7 +28,7 @@ coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 
 ### ひきだしにテラリウム（九井 諒子）
 
-\[itemlink post\_id="2181"\]
+\[itemlink post_id="2181"\]
 
 ![](images/IMG_8221.jpeg)
 
@@ -62,19 +60,19 @@ coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 
 九井先生の世界観にハマったら他の作品も読んでみてください。どれも面白い。
 
-\[itemlink post\_id="2215"\]
+\[itemlink post_id="2215"\]
 
-\[itemlink post\_id="2177"\]
+\[itemlink post_id="2177"\]
 
-\[itemlink post\_id="2202"\]
+\[itemlink post_id="2202"\]
 
 ### ヘテロゲニア リンギスティコ（瀬野 反人）
 
-\[itemlink post\_id="2182"\]
+\[itemlink post_id="2182"\]
 
 ![](images/IMG_8222.jpeg)
 
-© KADOKAWA 
+© KADOKAWA
 
 ![https://potof.net/wp-content/uploads/2019/11/penguin.png](images/penguin.png)
 
@@ -98,11 +96,11 @@ coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 
 ### 地球の放課後（吉富 昭仁）
 
-\[itemlink post\_id="2183"\]
+\[itemlink post_id="2183"\]
 
 ![](images/IMG_8223.jpeg)
 
-© チャンピオンRED
+© チャンピオン RED
 
 ![https://potof.net/wp-content/uploads/2019/11/penguin.png](images/penguin.png)
 
@@ -110,7 +108,7 @@ coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 
 謎の生命体「ファントム」によって**人類のほとんどが消えて**しまいました。そんな世界で生活するなかで少しずつ謎が明かされていきます。
 
-全 6巻でさくっと読むことができるのも読み返してしまうポイントです。
+全 6 巻でさくっと読むことができるのも読み返してしまうポイントです。
 
 ![https://potof.net/wp-content/uploads/2019/11/penguin.png](images/penguin.png)
 
@@ -126,7 +124,7 @@ coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 
 ### 星屑ニーナ（福島 聡）
 
-\[itemlink post\_id="2185"\]
+\[itemlink post_id="2185"\]
 
 ![](images/IMG_8224.jpeg)
 
@@ -138,7 +136,7 @@ coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 
 捨てられたロボットの星屑と自分に正直なニーナの生涯を描く作品です。**とにかくテンポがいい！！**
 
-一話で 3年後や 50年後に飛んだりします。全 4話でサクッと読めます。
+一話で 3 年後や 50 年後に飛んだりします。全 4 話でサクッと読めます。
 
 ![https://potof.net/wp-content/uploads/2019/11/penguin.png](images/penguin.png)
 
@@ -154,7 +152,7 @@ coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 
 ### コジコジ（さくらももこ）
 
-\[itemlink post\_id="2194"\]
+\[itemlink post_id="2194"\]
 
 ![https://potof.net/wp-content/uploads/2019/11/penguin.png](images/penguin.png)
 
@@ -170,23 +168,23 @@ coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 
 「ジョニーくんげんきんだしな」などの**名言にあふれています**。
 
-たった 4冊なのにこれだけ名言があるってどれだけ濃密な作品なのかがわかりますよね。
+たった 4 冊なのにこれだけ名言があるってどれだけ濃密な作品なのかがわかりますよね。
 
 ![https://potof.net/wp-content/uploads/2019/11/penguin.png](images/penguin.png)
 
 ぽとふ
 
-**読み終わったら、コジコジのファン間違いなしです！ 4冊なのでサクッと読めるところからついつい読んじゃいますね。**
+**読み終わったら、コジコジのファン間違いなしです！ 4 冊なのでサクッと読めるところからついつい読んじゃいますね。**
 
 ## 何も考えずにとにかく笑いたいときのおすすめマンガ
 
 わたしは**「うすた先生（すごいよマサルさん）」と「増田こうすけ先生（ギャグマンガ日和）」の大大大大ファンです！！！**
 
-この 2作品が好きならわたしのおすすめも読んでほしい！！！
+この 2 作品が好きならわたしのおすすめも読んでほしい！！！
 
 ### いいよね！米澤先生（地獄のミサワ）
 
-\[itemlink post\_id="2186"\]
+\[itemlink post_id="2186"\]
 
 ![https://potof.net/wp-content/uploads/2019/11/penguin.png](images/penguin.png)
 
@@ -204,7 +202,7 @@ coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 
 ### 日常（あらゐけいいち）
 
-\[itemlink post\_id="2187"\]
+\[itemlink post_id="2187"\]
 
 ![https://potof.net/wp-content/uploads/2019/11/penguin.png](images/penguin.png)
 
@@ -222,7 +220,7 @@ coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 
 ### りとる・けいおす（涼川 りん）
 
-\[itemlink post\_id="2188"\]
+\[itemlink post_id="2188"\]
 
 ![](images/IMG_8225.jpeg)
 
@@ -236,7 +234,7 @@ coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 
 ### +チック姉さん（栗井 茶）
 
-\[itemlink post\_id="2189"\]
+\[itemlink post_id="2189"\]
 
 ![https://potof.net/wp-content/uploads/2019/11/penguin.png](images/penguin.png)
 
@@ -246,7 +244,7 @@ coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 
 ### 男子高校生の日常（山内 泰延）
 
-\[itemlink post\_id="2190"\]
+\[itemlink post_id="2190"\]
 
 ![https://potof.net/wp-content/uploads/2019/11/penguin.png](images/penguin.png)
 
@@ -258,19 +256,19 @@ coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 
 ### スピリットサークル（水上 悟志）
 
-\[itemlink post\_id="2193"\]
+\[itemlink post_id="2193"\]
 
 ![https://potof.net/wp-content/uploads/2019/11/penguin.png](images/penguin.png)
 
 ぽとふ
 
-全 6巻しかないのに、最初はぜんぜん興味が持てずに 1巻で挫折していました。
+全 6 巻しかないのに、最初はぜんぜん興味が持てずに 1 巻で挫折していました。
 
-ちょっと苦手意識があるものの、3巻ぐらいからぐいぐい引き込まれるようになり、最後まで読んだときは**「あ、読んでよかった」**って思います
+ちょっと苦手意識があるものの、3 巻ぐらいからぐいぐい引き込まれるようになり、最後まで読んだときは**「あ、読んでよかった」**って思います
 
 ### お茶にごす。（西森 博之）
 
-\[itemlink post\_id="2192"\]
+\[itemlink post_id="2192"\]
 
 ![https://potof.net/wp-content/uploads/2019/11/penguin.png](images/penguin.png)
 
@@ -286,7 +284,7 @@ coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 
 ### 少女ファイト（日本橋ヨヲコ）
 
-\[itemlink post\_id="2195"\]
+\[itemlink post_id="2195"\]
 
 ![https://potof.net/wp-content/uploads/2019/11/penguin.png](images/penguin.png)
 
@@ -306,7 +304,7 @@ coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 
 ### ブルーピリオド（山口 つばさ）
 
-\[itemlink post\_id="2196"\]
+\[itemlink post_id="2196"\]
 
 ![https://potof.net/wp-content/uploads/2019/11/penguin.png](images/penguin.png)
 
@@ -318,7 +316,7 @@ coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 
 ぽとふ
 
-ド素人の主人公が高校 2年生から東京藝術大学を目指すために、がむしゃらに絵を描いていきます。
+ド素人の主人公が高校 2 年生から東京藝術大学を目指すために、がむしゃらに絵を描いていきます。
 
 テンポよく進むので面白い。絵画のうんちくも多く面白い。  
 **ここ最近の個人的ヒット作。**
@@ -331,7 +329,7 @@ coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 
 ### バクマン（大場つぐみ、小畑健）
 
-\[itemlink post\_id="2197"\]
+\[itemlink post_id="2197"\]
 
 ![https://potof.net/wp-content/uploads/2019/11/penguin.png](images/penguin.png)
 
@@ -353,7 +351,7 @@ coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 
 ### 漂流ネットカフェ（押見 修造 ）
 
-\[itemlink post\_id="2198"\]
+\[itemlink post_id="2198"\]
 
 ![https://potof.net/wp-content/uploads/2019/11/penguin.png](images/penguin.png)
 
@@ -363,7 +361,7 @@ coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 
 ### 嘘喰い（迫稔 雄）
 
-\[itemlink post\_id="2199"\]
+\[itemlink post_id="2199"\]
 
 ![https://potof.net/wp-content/uploads/2019/11/penguin.png](images/penguin.png)
 
@@ -377,7 +375,7 @@ coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 
 最後のほうではソードアート・オンラインのような MMO RPG の世界で上り詰める話しがあったり、**とにかく面白い！**
 
-49巻あって長いのですが、まずは 1巻を読んでみてほしい。絶対ハマります。
+49 巻あって長いのですが、まずは 1 巻を読んでみてほしい。絶対ハマります。
 
 ![https://potof.net/wp-content/uploads/2019/11/penguin.png](images/penguin.png)
 
@@ -389,7 +387,7 @@ coverImage: "miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
 
 ### DRAGON JAM（藤井 五成）
 
-\[itemlink post\_id="2200"\]
+\[itemlink post_id="2200"\]
 
 ![https://potof.net/wp-content/uploads/2019/11/penguin.png](images/penguin.png)
 

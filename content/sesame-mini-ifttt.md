@@ -1,10 +1,12 @@
 ---
 title: "SESAME MiniはIFTTTから操作するのがおすすめぽい"
 date: "2020-01-02"
-categories: 
+categories:
   - "gadget"
 coverImage: "DSC01823.jpeg"
 ---
+
+玄関の鍵を iPhone から操作できるようにしました。
 
 こんにちは。スマートホームに憧れるぽとふです。
 
@@ -35,7 +37,7 @@ coverImage: "DSC01823.jpeg"
 
 もっとこうやるといいよ！ってあればぜひコメントで教えて下さい！
 
-## Sesame miniってなに？
+## Sesame mini ってなに？
 
 ![](images/DSC01821.jpeg)
 
@@ -49,7 +51,7 @@ coverImage: "DSC01823.jpeg"
 
 - **小さい**
 - **サポートが強い（不具合あると交換してくれる）**
-- **Amazon Alexaに対応している（APIも公開）**
+- **Amazon Alexa に対応している（API も公開）**
 
 ![](images/DSC01814.jpeg)
 
@@ -57,21 +59,21 @@ coverImage: "DSC01823.jpeg"
 
 ![](images/DSC01819.jpeg)
 
-\[itemlink post\_id="1895"\]
+\[itemlink post_id="1895"\]
 
 ## 我が家の使い方
 
 まずはじめに我が家の構成です。
 
-- **SESAME Mini + Wifiモジュール**
+- **SESAME Mini + Wifi モジュール**
 - **Amazon Echo を使用**
 - **iPhone X を使用**
 
 Andoroid の場合や、Google Home の場合に当てはまるのかはわからないです。
 
-### iPhoneから操作する場合
+### iPhone から操作する場合
 
-やり方は 3つあります。
+やり方は 3 つあります。
 
 1. **公式アプリを起動して操作**
 2. **ウィジェットにボタンを追加して操作（公式アプリ）**
@@ -101,11 +103,11 @@ IFTTT 経由だと SESAME 公式アプリはもちろん、ifttt アプリも起
 
 IFTTT と連動する方法は SESAME 公式サイトにあるのでこちらをご参照ください。
 
-\[sanko href="https://ameblo.jp/candyhouse-inc/entry-12353322034.html" title="IFTTTとSESAMEの連動方法" site="SESAME公式サイト"\]
+\[sanko href="https://ameblo.jp/candyhouse-inc/entry-12353322034.html" title="IFTTT と SESAME の連動方法" site="SESAME 公式サイト"\]
 
-### Amazon Echoから操作する場合
+### Amazon Echo から操作する場合
 
-Amazon Echo から操作する方法は2つあります。
+Amazon Echo から操作する方法は 2 つあります。
 
 1. **Echo → SESAME 連携**
 2. **Echo → IFTTT → SESAME 連携**
@@ -135,9 +137,9 @@ IFTTT でパスフレーズを登録しておけばパスコードなしで解�
 我が家では、Alexa の定型アクションに組み込んで使っています。
 
 - **（ぼく）あれくさ、いってきます**
-- **（あれくさ）（電気OFF**）
-- **（あれくさ）（ヒーターOFF）**
-- **（あれくさ）（音楽OFF**）
+- **（あれくさ）（電気 OFF**）
+- **（あれくさ）（ヒーター OFF）**
+- **（あれくさ）（音楽 OFF**）
 - **（あれくさ）（家の鍵を開ける**）
 - **（あれくさ）いってらっしゃい**
 
@@ -153,25 +155,25 @@ IFTTT でパスフレーズを登録しておけばパスコードなしで解�
 
 Alexa 連携の方法はこちら（SESAME 公式サイト）。
 
-\[sanko href="https://ameblo.jp/candyhouse-inc/entry-12395343473.html" title="SESAMEとAlexa連携方法" site="SESAME公式サイト"\]
+\[sanko href="https://ameblo.jp/candyhouse-inc/entry-12395343473.html" title="SESAME と Alexa 連携方法" site="SESAME 公式サイト"\]
 
-\[itemlink post\_id="1904"\]
+\[itemlink post_id="1904"\]
 
 ## 試したけど微妙だった使い方
 
 今のところは iPhone からの手動操作か、Alexa の音声操作で利用していますが、以下の方法は採用できませんでした。
 
-### iPhoneを3回ノックして解錠／施錠
+### iPhone を 3 回ノックして解錠／施錠
 
-SESAME 公式で iPhone を 3回ノックすると操作してくれるんですが（これってとてもおもしろいですよね）、わたしには合いませんでした。
+SESAME 公式で iPhone を 3 回ノックすると操作してくれるんですが（これってとてもおもしろいですよね）、わたしには合いませんでした。
 
 - **反応がにぶい**
-- **場所特定に GPS を使っているからノックOKになるまで時間がかかる**
+- **場所特定に GPS を使っているからノック OK になるまで時間がかかる**
 - **ノックがめんどい**
 
 ノックしても操作できないことがあるのですが、そんな博打するぐらいならウィジェットから操作したほうが確実なのでお蔵入りになりました。
 
-### GPSと連動して解錠／施錠
+### GPS と連動して解錠／施錠
 
 GPS と連動させて解錠／施錠もできます。ちゃんと動くと便利だよな～って思うのですが、
 
@@ -180,13 +182,13 @@ GPS と連動させて解錠／施錠もできます。ちゃんと動くと便�
 
 ってことでお蔵入りになりました。
 
-### Bluetoothのみで利用する
+### Bluetooth のみで利用する
 
 ![](images/DSC01829.jpeg)
 
 ちょっと毛色が変わりますが、Wifi モジュールを利用せずに SESAME 本体で勝負している人がいるかもしれません。
 
-わたしもそうでした （Wifiモジュールが高いので・・・） 。
+わたしもそうでした （Wifi モジュールが高いので・・・） 。
 
 - **いますぐ Wifi モジュールを購入したほうがよいです**
 
@@ -194,16 +196,16 @@ IFTTT はもちろん、Alexa 等の音声コントロールとも連動でき�
 
 本当に物理的な鍵がスマートフォンに置きかわる利点しかないのでおすすめできません。
 
-\[itemlink post\_id="1902"\]
+\[itemlink post_id="1902"\]
 
-## Sesame miniの使い方まとめ
+## Sesame mini の使い方まとめ
 
 画面をぽちぽちするだけでできる便利な使い方をご紹介しました。
 
 些細ですが IFTTT と連動することでちょっとしたストレスがなくなるのでおすすめです。
 
-\[itemlink post\_id="1895"\]
+\[itemlink post_id="1895"\]
 
-\[itemlink post\_id="1902"\]
+\[itemlink post_id="1902"\]
 
-\[itemlink post\_id="1904"\]
+\[itemlink post_id="1904"\]
