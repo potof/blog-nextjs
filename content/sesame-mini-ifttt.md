@@ -103,7 +103,7 @@ IFTTT 経由だと SESAME 公式アプリはもちろん、ifttt アプリも起
 
 IFTTT と連動する方法は SESAME 公式サイトにあるのでこちらをご参照ください。
 
-\[sanko href="https://ameblo.jp/candyhouse-inc/entry-12353322034.html" title="IFTTT と SESAME の連動方法" site="SESAME 公式サイト"\]
+[IFTTT と SESAME の連動方法](https://ameblo.jp/candyhouse-inc/entry-12353322034.html)
 
 ### Amazon Echo から操作する場合
 
@@ -155,7 +155,7 @@ IFTTT でパスフレーズを登録しておけばパスコードなしで解�
 
 Alexa 連携の方法はこちら（SESAME 公式サイト）。
 
-\[sanko href="https://ameblo.jp/candyhouse-inc/entry-12395343473.html" title="SESAME と Alexa 連携方法" site="SESAME 公式サイト"\]
+[SESAME と Alexa 連携方法](https://ameblo.jp/candyhouse-inc/entry-12395343473.html)
 
 \[itemlink post_id="1904"\]
 

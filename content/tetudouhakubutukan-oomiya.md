@@ -37,15 +37,13 @@ JR 東日本の創立 20 周年を記念して建てられた「鉄道の歴史�
 
 「鉄道博物館駅」から徒歩 1 分です。
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.0437546507355!2d139.6157310147364!3d35.921429024369644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c6ad142e3493%3A0x6648f29dfd38004e!2z6YmE6YGT5Y2a54mp6aSo!5e0!3m2!1sja!2sjp!4v1580393102981!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
-
 この「鉄道博物館駅」は JR 大宮駅からニューシャトルという小型電車にのっていきます。
 
 後述しますが、間違っても**「大宮駅から歩いてはいけない」**です。めちゃくちゃとおい。
 
 車で行く場合は駐車料金が「820 円」かかるのでご注意ください。
 
-\[sanko href="http://www.railway-museum.jp/access/" title="アクセス" site="公式サイト"\]
+[鉄道博物館 アクセス](http://www.railway-museum.jp/access/)
 
 ### 料金
 

@@ -19,9 +19,7 @@ coverImage: "Pasted-image-20220129235552.jpg"
 日々のストレスがすべてなくなって、将来の夢として森に住みたいと決めるほど心地よい空間でした。
 知床とかグランピングとか関係なく、単純に最高におすすめなので一度体験してほしいです。
 
-公式サイト
-
-[参考知床 VILLA HOTEL FREEZE 【公式】〜知床の大自然を満喫できる宿〜null](http://www.freeze39.com/index.html)
+[VILLA HOTEL FREEZE 【公式】〜知床の大自然を満喫できる宿〜](http://www.freeze39.com/index.html)
 
 ## グランピング施設の「知床ヴィラホテルフリーズ」に行ってきいました
 

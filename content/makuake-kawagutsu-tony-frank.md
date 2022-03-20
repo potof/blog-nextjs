@@ -22,13 +22,13 @@ coverImage: "DSC01979.jpeg"
 
 わたしは日本生まれのクラウドファンディングサイトである「Makuake」に登録しました。
 
-\[sanko href="https://www.makuake.com/" title="Makuake" site="公式サイト"\]
+[Makuake](https://www.makuake.com/)
 
 今回、応援したプロジェクトはこちら。
 
 ![](images/DSC01979.jpeg)
 
-\[sanko href="https://www.makuake.com/project/tony-frank/" title="TONY FRANK" site="Makuake"\]
+[TONY FRANK](https://www.makuake.com/project/tony-frank/)
 
 もうこの革靴のかっこよさに一目惚れしてすぐに支援しました！
 

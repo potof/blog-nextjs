@@ -30,8 +30,6 @@ coverImage: "DSC01986.jpeg"
 
 と、価格面を気にしない**セレブリティの方におすすめ**できるレトルトカレーでした。
 
-https://www.youtube.com/watch?v=stKhFabGVLg
-
 ## 出会い
 
 ![](images/IMG_8128.jpeg)
@@ -136,19 +134,9 @@ KINOKUNIYA Style
 
 Web から購入する場合は、紀伊国屋公式サイトで注文できます。
 
-\[sanko href="https://www.super-kinokuniya.jp/eshop/items/10-4960320002749/index.php" title="黒毛和牛カレー" site="紀伊国屋 Web サイト"\]
+[黒毛和牛カレー（紀伊國屋）](https://www.super-kinokuniya.jp/eshop/items/10-4960320002749/index.php)
 
 ## まとめ
-
-\[rate title="このカレーの評価"\]  
-\[value 3\]辛さ\[/value\]  
-\[value 1\]創造性／奇抜さ\[/value\]  
-\[value 1\]値段\[/value\]  
-\[value 3.5\]おいしさ\[/value\]  
-\[value 2.5 end\]まとめると\[/value\]  
-\[/rate\]
-
-まとめると
 
 - **牛肉は少なくて無念**
 - **価格高すぎない？**
@@ -166,5 +154,3 @@ Web から購入する場合は、紀伊国屋公式サイトで注文できま�
 おっやるやん
 
 って感じるようなカレーでした。
-
-https://www.youtube.com/watch?v=stKhFabGVLg

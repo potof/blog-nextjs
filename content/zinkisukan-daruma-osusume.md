@@ -183,4 +183,4 @@ coverImage: "DSC02028.jpeg"
 
 すすきのに 5 店舗あります。固まっているので詳しくは公式サイトを見てください。
 
-\[sanko href="http://best.miru-kuru.com/daruma/" title="お店の場所" site="公式サイト"\]
+[だるま（公式サイト）](http://best.miru-kuru.com/daruma/)

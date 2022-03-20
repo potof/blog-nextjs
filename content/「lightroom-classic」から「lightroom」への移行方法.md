@@ -1,49 +1,43 @@
 ---
 title: "「Lightroom Classic」から「Lightroom CC」への移行方法"
 date: "2019-11-29"
-categories: 
+categories:
   - "blog"
 coverImage: "image-3.png"
 ---
 
-写真を管理するためにWindowsマシンのローカルに写真を保存して管理する「Lightroom Classic」を使っていました。
+写真を管理するために Windows マシンのローカルに写真を保存して管理する「Lightroom Classic」を使っていました。
 
-やっぱり**iPhoneから画像修正できるとブログ運営にあたって便利だなと思い直したので、「Lightroom CC」へ移行することにしました！**
+やっぱり **iPhone から画像修正できるとブログ運営にあたって便利だなと思い直したので、「Lightroom CC」へ移行することにしました！**
 
-基本的にはAdobe公式の移行手順を読めばOKです。
+基本的には Adobe 公式の移行手順を読めば OK です。
 
 [https://helpx.adobe.com/jp/lightroom-cc/using/migrate-to-lightroom-cc.html](https://helpx.adobe.com/jp/lightroom-cc/using/migrate-to-lightroom-cc.html)
 
-\[sanko href="https://helpx.adobe.com/jp/lightroom-cc/using/migrate-to-lightroom-cc.html" title="Lightroom Classic から Lightroom への写真とビデオの移行" site="Adobe公式"\]
-
-ちなみに、Sonyのコンパクトデジタルカメラの「RX100M6」で取った写真を「Lightroom Classic」でRAW現像していました。
-
+ちなみに、Sony のコンパクトデジタルカメラの「RX100M6」で取った写真を「Lightroom Classic」で RAW 現像していました。
 レンズを交換せずにズームもできるし、小さいのでわたしのような写真初心者におすすめです。
 
-\[itemlink post\_id="1766"\]
+\[itemlink post_id="1766"\]
 
-## Adobe契約内容（ライセンス）
+## Adobe 契約内容（ライセンス）
 
-Adobeとは「フォトプラン（20GB）」を契約しています。
+Adobe とは「フォトプラン（20GB）」を契約しています。
+今回、Lightroom CC へすべて移行することから、プランも **「Lightroom プラン（1TB）」に変更しました。**
 
-今回、Lightroom CCへすべて移行することから、プランも**「Lightroomプラン（1TB）」に変更しました。**
+**Lightroom Classic を使わない人には、同じ料金で容量が大きい「Lightroom プラン（1TB）」がおすすめです。**
 
-プランの違い
-
-**Lightroom Classicを使わない人には、同じ料金で容量が大きい「Lightroomプラン（1TB）」がおすすめです。**
-
-- 「フォトプラン（20GB）」では、Lightroom Classicが利用でき、Lightroomは20GBまで月額980円（税別）で利用できる。
-- 「Lightroom（1TB）」では、Lightroom Classicが利用できないが、Lightroomが1TBまで月額980円（税別）で利用できる。
+- 「フォトプラン（20GB）」では、Lightroom Classic が利用でき、Lightroom は 20GB まで月額 980 円（税別）で利用できる。
+- 「Lightroom（1TB）」では、Lightroom Classic が利用できないが、Lightroom が 1TB まで月額 980 円（税別）で利用できる。
 
 ## 移行前の事前準備をする
 
 ### カタログを最適化する
 
-Lightroom Classicを起動して、**「File」 > 「Optimize Catalog...」**を選択します。
+Lightroom Classic を起動して、 **「File」 > 「Optimize Catalog...」** を選択します。
 
 ![](images/image.png)
 
-わたしの場合は1010枚ぐらいの写真で5秒程度で終わりました。  
+わたしの場合は 1010 枚ぐらいの写真で 5 秒程度で終わりました。  
 環境によって大きく時間がかかる可能性があるのでご注意ください。
 
 ### バックアップの取得
@@ -57,10 +51,10 @@ Lightroom Classicを起動して、**「File」 > 「Optimize Catalog...」**を
 
 #### 写真のバックアップ
 
-Lightroomに写真を「追加」していると思いますが、追加もとのディレクトリをバックアップします。
+Lightroom に写真を「追加」していると思いますが、追加もとのディレクトリをバックアップします。
 
 わたしの場合は以下のディレクトリをコピーした。
-E:\\03\_photo\\DSC-RX100M6
+E:\\03_photo\\DSC-RX100M6
 
 #### カタログのバックアップ
 
@@ -74,15 +68,17 @@ E:\\03\_photo\\DSC-RX100M6
 
 わたしはプリセットを使っていないのでバックアップしていませんが、バックアップする人は以下のディレクトリを手動でコピーします。
 
-C:Users＜ユーザー名＞AppDataRoamingAdobeLightroom
+```
+C:Users ＜ユーザー名＞ AppDataRoamingAdobeLightroom
+```
 
-## Lightroomへ移行する
+## Lightroom へ移行する
 
-わたしの場合は試用期間中にLightroomを利用し、ライセンス購入後はLightroom Classicで運用していました。
+わたしの場合は試用期間中に Lightroom を利用し、ライセンス購入後は Lightroom Classic で運用していました。
 
-そのため、**すでにLightroomにカタログ等が設定されていたのですが、古い断面であるため、今回は新規に作り直しをします。**
+そのため、 **すでに Lightroom にカタログ等が設定されていたのですが、古い断面であるため、今回は新規に作り直しをします。**
 
-Lightroomを起動する
+Lightroom を起動する
 
 「ファイル」>「移行元...」>「Lightroom Classic カタログ...」を選択する
 
@@ -100,7 +96,7 @@ Lightroomを起動する
 
 ![](images/image-5.png)
 
-Lightroom Classicは落としておくこと
+Lightroom Classic は落としておくこと
 
 「ログファイルを開く」でエラー内容を確認し、「移行を開始」を
 
@@ -115,14 +111,14 @@ Lightroom Classicは落としておくこと
 (エラーコード : NON_EXISTING_FOLDER )
 ***************************
 NON_EXISTING_FOLDER
-参照されているフォルダー 
+参照されているフォルダー
 	E:/03_photo/DSC-RX100M6/JPEG/ が見つかりません
 
 ***************************
 (エラーコードの詳細 : NON_EXISTING_ASSET , 数 :131 )
 ***************************
 NON_EXISTING_ASSET
-参照されているアセットが見つかりません 
+参照されているアセットが見つかりません
 	E:/03_photo/DSC-RX100M6/JPEG/DSC00295.jpg
 	E:/03_photo/DSC-RX100M6/JPEG/DSC00296.jpg
 	E:/03_photo/DSC-RX100M6/JPEG/DSC00299.jpg
@@ -147,6 +143,6 @@ NON_EXISTING_ASSET
 
 ## あとがき
 
-これでiPhoneの「Lightroom」アプリからブログ向けに現像できるようになりました！
+これで iPhone の「Lightroom」アプリからブログ向けに現像できるようになりました！
 
 これで少し楽になるといいなあ・・。

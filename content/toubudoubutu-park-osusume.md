@@ -49,7 +49,7 @@ coverImage: "DSC00800.jpeg"
 
 行き方は公式サイトにちゃんと書いてあるのでこちらをご覧ください。
 
-\[sanko href="http://www.tobuzoo.com/access/" title="東武動物公園へのアクセス" site="公式サイト"\]
+[東武動物公園へのアクセス](http://www.tobuzoo.com/access/)
 
 なお、東武動物公園駅前はなにもありませんが、線路はあるのでご注意ください。
 

@@ -50,7 +50,7 @@ coverImage: "IMG_8210-e1579322652787.jpeg"
 
 詳しくは公式サイトを見てください。
 
-\[sanko href="https://www.grandcuisine.jp/archives/shop/388" title="メニュー" site="札幌みその公式サイト"\]
+[札幌みその公式サイト](https://www.grandcuisine.jp/archives/shop/388)
 
 ### とにかくスープが濃い
 

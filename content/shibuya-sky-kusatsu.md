@@ -67,7 +67,7 @@ JR 渋谷駅から徒歩 5 分程度で近いですね。
 
 です。特に大きいカメラにはネックストラップが必要なのでご注意ください。
 
-\[sanko href="https://www.shibuya-scramble-square.com/sky/" title="公式サイト" site="渋谷スカイ"\]
+[渋谷スカイ](https://www.shibuya-scramble-square.com/sky/)
 
 ### 屋上と屋内がある
 

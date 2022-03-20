@@ -28,7 +28,7 @@ coverImage: "image-2.png"
 
 結果を Google SpreadSheet にまとめたので数値だけ見たいよ〜って人はこちらをごらんください。
 
-\[sanko href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQUblB1jIoJI9NK4LQNGS-SgGIbs-f1lEJTlc1N-bP1guruc0U97jRmxknCqh\_0ZYoUvMiD7LXAdza1/pubhtml?gid=0&single=true" title="ストレングスファインダーのデータまとめ" site="Google Spreadsheet"\]
+[ストレングスファインダーのデータまとめ](https://docs.google.com/spreadsheets/d/e/2PACX-1vQUblB1jIoJI9NK4LQNGS-SgGIbs-f1lEJTlc1N-bP1guruc0U97jRmxknCqh_0ZYoUvMiD7LXAdza1/pubhtml?gid=0&single=true)
 
 ## ストレングスファインダーとは？
 
@@ -72,7 +72,7 @@ coverImage: "image-2.png"
 
 公式サイトはこちら。
 
-\[sanko href="https://www.gallup.com/cliftonstrengths/ja/253634/%E3%83%9B%E3%83%BC%E3%83%A0.aspx" title="ストレングスファインダー" site=" GALLUP 公式サイト"\]
+[ストレングスファインダー](https://www.gallup.com/cliftonstrengths/ja/253634/%E3%83%9B%E3%83%BC%E3%83%A0.aspx)
 
 ## ストレングスファインダーの結果分析
 

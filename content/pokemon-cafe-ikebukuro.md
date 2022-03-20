@@ -40,7 +40,7 @@ coverImage: "DSC01923.jpeg"
 
 公式サイトはこちらです。
 
-\[sanko href="https://www.pokemoncenter-online.com/cafe/pikachu\_sweets/" title="公式サイト" site="Pikachu Sweets by Pokemon Cafe"\]
+[Pikachu Sweets by Pokemon Cafe](https://www.pokemoncenter-online.com/cafe/pikachu_sweets/)
 
 ## ポケモンカフェ池袋のメニュー
 
@@ -216,7 +216,5 @@ JR 池袋駅からサンシャインシティを目指していくと、
 ただ、テイクアウトのみなのでお土産を購入する場合は夕方に行くなど気をつけてください。
 
 すぐとなりにはポケモンセンターもありますし、サンシャインには水族館もあるのでぜひ遊びに行ってみてください！
-
-\[sanko href="https://www.pokemoncenter-online.com/cafe/pikachu\_sweets/" title="公式サイト" site="Pikachu Sweets by Pokemon Cafe"\]
 
 \[itemlink post_id="1714"\]

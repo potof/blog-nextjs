@@ -8,6 +8,8 @@ coverImage: "IMG_8166.jpeg"
 
 ドライヘッドマッサージに行ってきました。
 
+[potof.net](https://potof.net/2022/01/30/shiretoko-villa-hotel-freeze/)
+
 札幌でヘッドマッサージ専門店の「ののじ」に行ってきたところ、
 
 - **頭を揉まれるってやっぱりいい**
@@ -32,8 +34,7 @@ coverImage: "IMG_8166.jpeg"
 
 公式サイトはこちらです。
 
-[hoge](/ "Google")
-\[sanko href="https://no-noji.com/" title="ののじ" site="公式サイト"\]
+[ののじ公式サイト](https://no-noji.com/)
 
 ### 場所は札幌駅と大通りにある（2 店舗）
 
@@ -42,12 +43,6 @@ coverImage: "IMG_8166.jpeg"
 わたしは大通り店に行ってきましたが、ビルの 3 階にあるので少し分かりづらいです。
 
 Google Map でルートを調べて行ったほうがいいですね。
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11659.606953826655!2d141.34263548020567!3d43.06453414305775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b29330c775f25%3A0x94e6c26aa9e35349!2z6aCt44Gu5o-J44G_44G744GQ44GXL-ODieODqeOCpOODmOODg-ODieOCueODkeWwgumWgOW6lyDjga7jga7jgZgt5aSn6YCa5bqXLQ!5e0!3m2!1sja!2sjp!4v1579446712544!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
-
-こちらは札幌駅店。
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2914.6606054485974!2d141.35022511497024!3d43.06960519798971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b290b53cb75b9%3A0xf405de89a7dace1e!2z6aCt44Gu5o-J44G_44G744GQ44GXL-ODieODqeOCpOODmOODg-ODieOCueODkeWwgumWgOW6lyDjga7jga7jgZgt5pyt5bmM6aeF5YyX5Y-j5bqXLQ!5e0!3m2!1sja!2sjp!4v1579446512298!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
 
 ### 料金とメニュー（プラン）
 

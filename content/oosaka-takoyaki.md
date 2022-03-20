@@ -62,7 +62,7 @@ coverImage: "DSC00555.jpeg"
 
 ちなみに、残念ながら東京都内にはありませんので大阪いきましょ。
 
-\[sanko href="http://takoyaki-wanaka.com/#content04" title="店舗一覧" site="わなか公式サイト"\]
+[わなか公式サイト](http://takoyaki-wanaka.com/#content04)
 
 ## ソースに飽きたら「くれおーる」
 
@@ -98,7 +98,7 @@ coverImage: "DSC00555.jpeg"
 
 ちなみに、東京の道玄坂（渋谷）にもありますが、大阪に行って食べないとだめですよ。
 
-\[sanko href="https://creo-ru.com/creo-ru-store/area/" title="店舗一覧" site="くれおーる公式サイト"\]
+[くれおーる公式サイト](https://creo-ru.com/creo-ru-store/area/)
 
 ## 雷おこしのような食感が楽しい「十八番」
 
@@ -138,7 +138,7 @@ coverImage: "DSC00555.jpeg"
 
 東京のお台場にもお店はありますが、大阪で食べますよね？
 
-\[sanko href="http://d-sons18.co.jp/" title="店舗一覧" site="十八番公式サイト"\]
+[十八番公式サイト](http://d-sons18.co.jp/)
 
 ## 生だこだなって分かる駄菓子たこ焼き「赤鬼」
 
@@ -175,7 +175,7 @@ coverImage: "DSC00555.jpeg"
 
 ![](images/DSC02171.jpeg)
 
-\[sanko href="http://www.doutonbori-akaoni.com/access" title="アクセス" site="赤鬼公式サイト"\]
+[赤鬼公式サイト](http://www.doutonbori-akaoni.com/access)
 
 ## じゅるじゅる系たこ焼きの「たこ昌」
 
@@ -205,4 +205,4 @@ coverImage: "DSC00555.jpeg"
 
 道頓堀、新大阪駅、関西空港と要所を抑えています。
 
-\[sanko href="http://takomasa.co.jp/" title="アクセス" site="たこ昌公式サイト"\]
+[たこ昌公式サイト](http://takomasa.co.jp/)
