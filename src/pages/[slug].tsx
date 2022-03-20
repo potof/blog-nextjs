@@ -6,11 +6,18 @@ import Image from "next/image";
 import Link from "next/link";
 import { getAllPosts, getPostBySlug } from "../lib/api";
 import markdownToHtml from "../lib/markdownToHtml";
-import { Box, Heading, Text, Stack, VStack } from "@chakra-ui/react";
+import {
+  Box,
+  Heading,
+  Text,
+  Stack,
+  VStack,
+  Link as UILink,
+} from "@chakra-ui/react";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import { serialize } from "next-mdx-remote/serialize";
-import { MDXRemote } from "next-mdx-remote";
+import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote";
 import imageSize from "rehype-img-size";
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
@@ -67,6 +74,20 @@ const components = {
       </Box>
     );
   },
+  p: (props: any) => {
+    return <Text>{props.children}</Text>;
+  },
+  a: (props: any) => {
+    if (props.href.includes("http")) {
+      return (
+        <UILink href={props.href} target="_blank" color="pink.300" isExternal>
+          {props.children}
+        </UILink>
+      );
+    } else {
+      return <Link href={props.href}>{props.children}</Link>;
+    }
+  },
 };
 
 const Post: NextPage<Props> = ({ post }) => {
@@ -84,13 +105,14 @@ const Post: NextPage<Props> = ({ post }) => {
           <meta property="og:image" content={post.coverImage} />
         </Head>
         <Stack w="780px" h="100%" p="3">
-          <VStack p={3} rounded="md" w="100%" bg="white" boxShadow="base">
-            <Text textAlign="left">
-              <time>{post.date}</time>
-            </Text>
-            <Heading as="h1" pb="6">
+          <VStack p={10} rounded="2xl" w="100%" bg="white" boxShadow="base">
+            <Heading as="h1" pb="2">
               {post.title}
             </Heading>
+            {/* <Text textAlign="left">
+              <time>{post.date}</time>
+            </Text> */}
+
             <Box
               sx={{
                 h2: {
@@ -112,6 +134,8 @@ const Post: NextPage<Props> = ({ post }) => {
                 },
                 p: {
                   my: "16px",
+                  lineHeight: "27px",
+                  color: "#383838",
                 },
               }}
             >
