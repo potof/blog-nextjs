@@ -77,6 +77,13 @@ const components = {
   p: (props: any) => {
     return <Text>{props.children}</Text>;
   },
+  h3: (props: any) => {
+    return (
+      <Heading as="h3" size="md">
+        {props.children}
+      </Heading>
+    );
+  },
   a: (props: any) => {
     if (props.href.includes("http")) {
       return (
