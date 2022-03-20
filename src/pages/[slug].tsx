@@ -105,7 +105,13 @@ const Post: NextPage<Props> = ({ post }) => {
           <meta property="og:image" content={post.coverImage} />
         </Head>
         <Stack w="780px" h="100%" p="3">
-          <VStack p={10} rounded="2xl" w="100%" bg="white" boxShadow="base">
+          <VStack
+            p={[5, 10]}
+            rounded="2xl"
+            w="100%"
+            bg="white"
+            boxShadow="base"
+          >
             <Heading as="h1" pb="2">
               {post.title}
             </Heading>
