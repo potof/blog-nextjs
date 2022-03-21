@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "NODE_OPTIONS='--inspect' next dev",
-    "build": "next build",
+    "build": "next build && next-sitemap --config next-sitemap.js",
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
@@ -48,6 +48,7 @@
     "eslint": "8.11.0",
     "eslint-config-next": "12.1.0",
     "eslint-config-prettier": "^8.5.0",
+    "next-sitemap": "^2.5.10",
     "prettier": "^2.5.1",
     "typescript": "^4.6.2"
   }
