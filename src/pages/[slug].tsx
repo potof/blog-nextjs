@@ -72,7 +72,27 @@ const components = {
     );
   },
   p: (props: any) => {
-    return <Text>{props.children}</Text>;
+    return (
+      <Text my="16px" lineHeight="27px" color="#383838">
+        {props.children}
+      </Text>
+    );
+  },
+  h2: (props: any) => {
+    return (
+      <Heading
+        as="h2"
+        bg="#019cd0"
+        color="white"
+        p="3"
+        rounded="md"
+        fontSize="1.143em"
+        my="6"
+        fontWeight="bold"
+      >
+        {props.children}
+      </Heading>
+    );
   },
   h3: (props: any) => {
     return (
@@ -129,15 +149,6 @@ const Post: NextPage<Props> = ({ post }) => {
 
             <Box
               sx={{
-                h2: {
-                  bg: "#019cd0",
-                  color: "white",
-                  p: "3",
-                  rounded: "md",
-                  fontSize: "1.143em",
-                  my: "6",
-                  fontWeight: "bold",
-                },
                 ul: {
                   bg: "#EEF9FF",
                   p: "3",
@@ -145,11 +156,6 @@ const Post: NextPage<Props> = ({ post }) => {
                   my: "6",
                   rounded: "md",
                   fontWeight: "bold",
-                },
-                p: {
-                  my: "16px",
-                  lineHeight: "27px",
-                  color: "#383838",
                 },
               }}
             >
