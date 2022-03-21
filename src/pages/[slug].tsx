@@ -5,7 +5,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { getAllPosts, getPostBySlug } from "../lib/api";
-import markdownToHtml from "../lib/markdownToHtml";
 import {
   Box,
   Heading,
