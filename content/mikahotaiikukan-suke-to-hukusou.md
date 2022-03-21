@@ -36,8 +36,6 @@ coverImage: "IMG_8183.jpeg"
 
 ### 場所と行き方
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2913.7210785470097!2d141.35502131547955!3d43.08935897914464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b29211c4cc865%3A0x70182db13e584df3!2z5pyt5bmM5biC576O6aaZ5L-d5L2T6IKy6aSo!5e0!3m2!1sja!2sjp!4v1579184715800!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
-
 地下鉄南北線「北 24 条駅」から徒歩 20 分ぐらいです。
 
 季節的に雪道な場合が多いので、もう少し時間がかかるかもしれません。
@@ -245,5 +243,4 @@ coverImage: "IMG_8183.jpeg"
 スケートって楽しいですね。もっとうまくなって、タオパイパイスタイルで滑りたい・・・。
 
 \[itemlink post_id="2107"\]
-
 \[itemlink post_id="2105"\]

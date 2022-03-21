@@ -21,10 +21,6 @@ coverImage: "DSC01137.jpg"
 正直なところ目新しさやコンセプトがよくわからなかったのですが、  
 飼育が難しいマンボウやサメの種類が日本一多く 都心から 2 時間の近さで見に行けます。
 
-![https://potof.net/wp-content/uploads/2019/12/penguin_R.jpg](images/penguin_R.jpg)よだれペンギン
-
-これでもか！ってサメのターンが続くよ！怖い！
-
 こんな人におすすめ
 
 - マンボウやサメが好きな人
@@ -36,8 +32,6 @@ coverImage: "DSC01137.jpg"
 茨城県の大洗町にある「日本トップクラスの大型水族館」です。
 
 茨城県のを代表とする観光スポットの一つで、**約 580 種類 68,000 点の生物を展示**しています！
-
-![https://potof.net/wp-content/uploads/2019/11/penguin.png](images/penguin.png)ぺんぎん
 
 すごくおおい！
 

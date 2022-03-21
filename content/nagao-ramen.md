@@ -21,8 +21,6 @@ coverImage: "IMG_7756.jpeg"
 青森県内に 5 店舗ぐらいありますが、  
 わたしが行ったのは青森駅から徒歩 2 分ぐらいの「青森駅前店」です。
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.0396303432344!2d140.7317519156099!3d40.827093179319604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9b9f1ee9a7a4b3%3A0x9ea07d90f8358399!2z6ZW35bC-5Lit6I-v44Gd44GwIOmdkuajrumnheWJjeW6lw!5e0!3m2!1sja!2sjp!4v1575683969914!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
-
 ![青森駅前](images/DSC01357.jpeg)
 
 駅からこの近さは便利ですね。

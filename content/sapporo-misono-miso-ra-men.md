@@ -32,8 +32,6 @@ coverImage: "IMG_8210-e1579322652787.jpeg"
 
 札幌駅から徒歩 5 分ぐらいです。
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46613.89595507054!2d141.26872893102146!3d43.09677020907896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b2974ee2beb01%3A0x51e16654c4897324!2z5pyt5bmM44G_44Gd44Gu!5e0!3m2!1sja!2sjp!4v1579323631394!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
-
 ### メニュー
 
 店舗によって違いますが、わたしが行った「札幌ら～めん共和国」では、3 種類のラーメンがあります。

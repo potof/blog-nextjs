@@ -1,20 +1,20 @@
 ---
 title: "【2ヶ月目】ブログ運営報告"
 date: "2020-02-01"
-categories: 
+categories:
   - "blog"
 coverImage: "brog-2month.jpg"
 ---
 
-2019年 11月 17日にブログを開設して 2ヶ月経ちました。また、ちょうどこれで 50記事です。
+2019 年 11 月 17 日にブログを開設して 2 ヶ月経ちました。また、ちょうどこれで 50 記事です。
 
 今月は、正直、だいぶサボりましたがアクセス数はほんの少しだけ増えました。
 
 また、わずかですが収入も入ってきましたので、備忘録も兼ねてまとめておきます。
 
-1ヶ月目の運営状況はこちら。
+1 ヶ月目の運営状況はこちら。
 
-\[kanren id="1496"\]
+[【1 ヶ月目】ブログ運営報告](blog-1month.md)
 
 ## 記事数などやれば上がるところはすべて下がった
 
@@ -24,13 +24,21 @@ coverImage: "brog-2month.jpg"
 
 報告期間は「2020/1/1 〜 2020/1/31」。括弧は前回実績です。
 
-<table class=""><tbody><tr><td>投稿記事数（合計）</td><td class="has-text-align-center" data-align="center"><span style="color:#019cd0" class="color">16</span><br>(22)</td></tr><tr><td>投稿記事数（1日あたり）</td><td class="has-text-align-center" data-align="center"><span style="color:#019cd0" class="color">0.5</span><br>(0.7)</td></tr><tr><td>執筆文字数（合計）</td><td class="has-text-align-center" data-align="center"><span style="color:#019cd0" class="color">27,801</span><br>(40,168)</td></tr><tr><td>執筆文字数（1記事あたり）</td><td class="has-text-align-center" data-align="center"><span style="color:#019cd0" class="color">1,738</span><br>(1,826)</td></tr><tr><td>ブログカスタマイズ数</td><td class="has-text-align-center" data-align="center"><span style="color:#019cd0" class="color">2</span><br>(32)</td></tr><tr><td>消化済みブログタスク数</td><td class="has-text-align-center" data-align="center"><span style="color:#019cd0" class="color">20</span><br>(74)</td></tr><tr><td>投稿YouTube動画数</td><td class="has-text-align-center" data-align="center"><span style="color:#019cd0" class="color">1</span><br>(6)</td></tr></tbody></table>
+| 項目                       | 結果           |
+| -------------------------- | -------------- |
+| 投稿記事数（合計）         | 16(22)         |
+| 投稿記事数（1 日あたり）   | 0.5(0.7)       |
+| 執筆文字数（合計）         | 27,801(40,168) |
+| 執筆文字数（1 記事あたり） | 1,738(1,826)   |
+| ブログカスタマイズ数       | 2(32)          |
+| 消化済みブログタスク数     | 20(74)         |
+| 投稿 YouTube 動画数        | 1(6)           |
 
 軒並みすべて下がったのは情けないですね。特に記事数。やば。
 
-31日間で 16記事なのでちょうど 2日に 1記事ペースなのですが、執筆ペースが決まっていない（3日あいちゃったり、翌日も更新したり）のがとにかくよくない。
+31 日間で 16 記事なのでちょうど 2 日に 1 記事ペースなのですが、執筆ペースが決まっていない（3 日あいちゃったり、翌日も更新したり）のがとにかくよくない。
 
-目標は毎日更新ではあるものの、必ず毎日書けないのであればいっそのこと必ず 1日置き更新のほうがいいのかなって思ったりもしました。
+目標は毎日更新ではあるものの、必ず毎日書けないのであればいっそのこと必ず 1 日置き更新のほうがいいのかなって思ったりもしました。
 
 ## アクセス数は少しあがったがまだまだ少ない
 
@@ -38,9 +46,15 @@ coverImage: "brog-2month.jpg"
 
 あまり記事は書いていない割に、PV は少し上昇しました。括弧は前回実績です。
 
-<table class=""><tbody><tr><td>PV（合計）</td><td class="has-text-align-center" data-align="center"><span style="color:#ffb0ea" class="color">750</span><br>(600)</td></tr><tr><td>PV（1日あたり）</td><td class="has-text-align-center" data-align="center"><span style="color:#ffb0ea" class="color">24</span><br>(19)</td></tr><tr><td>PV（合計 / 記事数）</td><td class="has-text-align-center" data-align="center"><span style="color:#ffb0ea" class="color">46</span><br>(24)</td></tr><tr><td>合計クリック数</td><td class="has-text-align-center" data-align="center"><span style="color:#ffb0ea" class="color">65</span><br>(44)</td></tr><tr><td>動画再生回数</td><td class="has-text-align-center" data-align="center"><span style="color:#019cd0" class="color">26</span><br>(69)</td></tr></tbody></table>
+| 項目                | 結果     |
+| ------------------- | -------- |
+| PV（合計）          | 750(600) |
+| PV（1 日あたり）    | 24(19)   |
+| PV（合計 / 記事数） | 46(24)   |
+| 合計クリック数      | 65(44)   |
+| 動画再生回数        | 26(69)   |
 
-150 PV のプラスでしたが、クリック数が 21増えたのはよかった。
+150 PV のプラスでしたが、クリック数が 21 増えたのはよかった。
 
 まあ、上昇したといってもこの程度は誤差の範囲かもしれませんね。とはいえ、上昇したことがわかるのは素直にうれしいです。
 
@@ -50,13 +64,18 @@ coverImage: "brog-2month.jpg"
 
 ちなみに、流入元の比率はこんな感じでした。
 
-<table class=""><tbody><tr><td>Social</td><td>165 User<br>(51%)</td></tr><tr><td>Organic Search</td><td>103 User<br>(32%)</td></tr><tr><td>Direct</td><td>42 User<br>(13%)</td></tr><tr><td>Referral</td><td>9 User<br>(2%)</td></tr></tbody></table>
+| 項目           | 結果          |
+| -------------- | ------------- |
+| Social         | 165 User(51%) |
+| Organic Search | 103 User(32%) |
+| Direct         | 42 User(13%)  |
+| Referral       | 9 User(2%)    |
 
 相変わらず Social からの流入が多いものの、少しづつ Organic Search が増えてきました。
 
 天下の Google 様からは評価されていませんが、Yahoo / Bing からは検索上位に表示してもらうことが多くなり、同時に検索も増えました。
 
-狙ったキーワードで 1位が取れたときはめちゃくちゃうれしい！！
+狙ったキーワードで 1 位が取れたときはめちゃくちゃうれしい！！
 
 ## 検索で来て広告をクリックした人がいたうれしさがすごい
 
@@ -64,18 +83,18 @@ coverImage: "brog-2month.jpg"
 
 はじめて検索できて広告をクリックした人がいました！
 
-たった 4円ではありましたが、
+たった 4 円ではありましたが、
 
 - **あー本当に検索してきてくれたんだなあ**
 - **そして小額とはいえ本業以外で稼いだんだなあ**
 
 と感慨深く思わずスクリンショットを撮りました。
 
-その後、もう1人クリックしてくれたので
+その後、もう 1 人クリックしてくれたので
 
-- **合計 7円**
+- **合計 7 円**
 
-になりました。時給換算で 0.2円ぐらいでしょうか？
+になりました。時給換算で 0.2 円ぐらいでしょうか？
 
 わたしの場合は広告をクリックすることがないし、製品レビュー記事を読んでもリンクは絶対にクリックせず別窓で検索したりするので、本当にクリックする人はいるのか？ って思っていました。
 
@@ -108,7 +127,7 @@ coverImage: "brog-2month.jpg"
 
 だと感じます。
 
-カスタマイズしまくっていたときは無意味にブログを開いて1人にやにやする・・・それが日課になっていましたが、カスタマイズをしないとその日課がぱったり消えました。
+カスタマイズしまくっていたときは無意味にブログを開いて 1 人にやにやする・・・それが日課になっていましたが、カスタマイズをしないとその日課がぱったり消えました。
 
 そうすると「文章を書く」ことが重要（集中できる）になります。
 
@@ -116,16 +135,14 @@ coverImage: "brog-2month.jpg"
 
 今の見た目に満足せず、ブログカスタマイズしたい場所をどんどん増やしていこうと思いました。
 
-## ブログ開設 3ヶ月目のブレイクスルーは本当にくるのか
+## ブログ開設 3 ヶ月目のブレイクスルーは本当にくるのか
 
 ![](images/DSC01936.jpeg)
 
-ブログは開設してから 3ヶ月後ぐらいから伸び始めると言われています。
+ブログは開設してから 3 ヶ月後ぐらいから伸び始めると言われています。
 
-ぽとふバーガーDXの場合、来月（2020年 2月）がちょうど 3ヶ月目です。
+ぽとふバーガー DX の場合、来月（2020 年 2 月）がちょうど 3 ヶ月目です。
 
-3ヶ月で結果がでる人は、戦略的にブログ運営している人の場合だとおもいますが、こういう雑記ブログでも変化があるのかたのしみですね。
+3 ヶ月で結果がでる人は、戦略的にブログ運営している人の場合だとおもいますが、こういう雑記ブログでも変化があるのかたのしみですね。
 
 来月のブログ運営報告では、革新的なブログ外観と共にアクセスに対するブレイクスルーが起きたのかどうかを報告します。
-
-\[kanren id="1496"\]

@@ -53,8 +53,6 @@ coverImage: "DSC01682.jpeg"
 
 近くに駅はないので電車ではなく車で行くのが良いです。
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3184.4324152562067!2d139.94444421550955!3d37.04717737989845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f8930c10c58c3%3A0xf56b6c4ccd63743d!2z6YKj6aCI44OV44Kj44OD44K344Ol44Op44Oz44OJ!5e0!3m2!1sja!2sjp!4v1575293305287!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
-
 ### 渓流釣りは 2 時間 3000 円！ただ安くする方法も
 
 釣りプランはたくさんあるのですが、なかでも**ヤマメとイワナが釣れる「渓流釣り」がおすすめ**です。

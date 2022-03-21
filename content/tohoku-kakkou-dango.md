@@ -38,8 +38,6 @@ coverImage: "DSC01450.jpeg"
 
 ![厳美渓の看板](images/DSC01447.jpeg)
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.096796821596!2d141.04489331555888!3d38.94461697956335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f88d124eb35d77f%3A0x6213200ad0f941e4!2z44GL44Gj44GT44GG44Gg44KT44GU!5e0!3m2!1sja!2sjp!4v1575385497710!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
-
 渓谷にあるのでてっきり自然に囲まれた場所にあるのかと思っていましたが、意外と街中にあります。
 
 ### お店には駐車場もあり
@@ -129,6 +127,4 @@ coverImage: "DSC01450.jpeg"
 
 **近くに訪れたときにはまた寄りたいと思える場所でした。**
 
-![っこうだんご](images/DSC01448.jpeg)
-
-っこうだんご
+![かっこうだんご](images/DSC01448.jpeg)
