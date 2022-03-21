@@ -8,8 +8,6 @@ coverImage: "IMG_8166.jpeg"
 
 ドライヘッドマッサージに行ってきました。
 
-[potof.net](https://potof.net/2022/01/30/shiretoko-villa-hotel-freeze/)
-
 札幌でヘッドマッサージ専門店の「ののじ」に行ってきたところ、
 
 - **頭を揉まれるってやっぱりいい**
