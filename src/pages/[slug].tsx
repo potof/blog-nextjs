@@ -13,6 +13,7 @@ import {
   VStack,
   Link as UILink,
 } from "@chakra-ui/react";
+import { FaExternalLinkAlt } from "react-icons/fa";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import { serialize } from "next-mdx-remote/serialize";
@@ -22,9 +23,6 @@ import remarkGfm from "remark-gfm";
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
-/**
- * 記事のパスを取得する
- */
 export const getStaticPaths = async () => {
   const posts = getAllPosts();
   return {
@@ -39,9 +37,6 @@ export const getStaticPaths = async () => {
   };
 };
 
-/**
- * 記事の内容を取得する
- */
 export const getStaticProps = async ({ params }: any) => {
   const post = getPostBySlug(params.slug);
   const mdxSource = await serialize(post.content, {
@@ -89,12 +84,19 @@ const components = {
   a: (props: any) => {
     if (props.href.includes("http")) {
       return (
-        <UILink href={props.href} target="_blank" color="pink.300" isExternal>
+        <UILink href={props.href} color="pink.300" isExternal>
           {props.children}
+          <FaExternalLinkAlt style={{ display: "inline", marginLeft: "3px" }} />
         </UILink>
       );
     } else {
-      return <Link href={props.href}>{props.children}</Link>;
+      return (
+        <Link href={props.href}>
+          <a>
+            <Text color="pink.300">{props.children}</Text>
+          </a>
+        </Link>
+      );
     }
   },
 };
