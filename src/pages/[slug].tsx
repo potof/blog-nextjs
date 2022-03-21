@@ -19,6 +19,7 @@ import Footer from "../components/footer";
 import { serialize } from "next-mdx-remote/serialize";
 import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote";
 import imageSize from "rehype-img-size";
+import remarkGfm from "remark-gfm";
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
@@ -44,13 +45,12 @@ export const getStaticPaths = async () => {
  */
 export const getStaticProps = async ({ params }: any) => {
   const post = getPostBySlug(params.slug);
-  // Markdown を HTML に変換する
   const mdxSource = await serialize(post.content, {
     mdxOptions: {
-      rehypePlugins: [[imageSize as any, { dir: "public" }]],
+      remarkPlugins: [remarkGfm], //Table tag 用
+      rehypePlugins: [[imageSize as any, { dir: "public" }]], //画像サイズ取得用
     },
   });
-  // content を詰め直して返す
   return {
     props: {
       post: {
@@ -61,6 +61,9 @@ export const getStaticProps = async ({ params }: any) => {
   };
 };
 
+/**
+ * next-mdx-remort で md to html へ変換するときに html タグを以下のコンポーネントに変換する
+ */
 const components = {
   img: (props: any) => {
     return (
@@ -122,9 +125,6 @@ const Post: NextPage<Props> = ({ post }) => {
             <Heading as="h1" pb="2">
               {post.title}
             </Heading>
-            {/* <Text textAlign="left">
-              <time>{post.date}</time>
-            </Text> */}
 
             <Box
               sx={{
