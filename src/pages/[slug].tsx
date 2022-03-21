@@ -13,7 +13,7 @@ import {
   VStack,
   Link as UILink,
 } from "@chakra-ui/react";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaExternalLinkAlt, FaAngleDoubleLeft } from "react-icons/fa";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import { serialize } from "next-mdx-remote/serialize";
@@ -156,7 +156,17 @@ const Post: NextPage<Props> = ({ post }) => {
               <MDXRemote {...post.mdxSource} components={components} />
             </Box>
             <Link href="/">
-              <a>一覧にもどる</a>
+              <a>
+                <Text _hover={{ opacity: 0.5 }}>
+                  <FaAngleDoubleLeft
+                    style={{
+                      display: "inline",
+                      marginRight: "3px",
+                    }}
+                  />
+                  記事一覧にもどる
+                </Text>
+              </a>
             </Link>
           </VStack>
         </Stack>
