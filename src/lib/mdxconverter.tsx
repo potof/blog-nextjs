@@ -50,9 +50,22 @@ export const components = {
   a: (props: any) => {
     if (props.href.includes("amzn.to")) {
       return (
-        <UILink href={props.href} color="pink.300" isExternal>
-          Amazon.co.jp : {props.children}
-          <FaExternalLinkAlt style={{ display: "inline", marginLeft: "3px" }} />
+        <UILink href={props.href} isExternal>
+          <Box
+            border="1px"
+            borderColor="gray.200"
+            p="4"
+            my="3"
+            _hover={{
+              background: "gray.200",
+            }}
+            rounded="lg"
+          >
+            Amazon.co.jp で探す : {props.children}
+            <Text color="gray.400" fontSize="14">
+              🔗 ${new URL(props.href).hostname}
+            </Text>
+          </Box>
         </UILink>
       );
     } else if (props.href.includes("http")) {
