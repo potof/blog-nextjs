@@ -79,6 +79,7 @@ const components = {
           src={"/" + props.src}
           layout="responsive"
           loading="lazy"
+          alt={props.alt}
         />
       </Box>
     );
