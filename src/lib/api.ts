@@ -23,7 +23,7 @@ export function getPostBySlug(slug: string) {
     content,
   } = matter(fileContents);
   const descMatch: RegExpMatchArray | null = content.match(/\n.*\n/);
-  let desc: string = descMatch ? descMatch[0].replace("\n", "") : "";
+  const desc: string = descMatch ? descMatch[0].replace("\n", "") : "";
 
   return {
     slug: slug,
