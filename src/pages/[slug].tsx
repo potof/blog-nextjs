@@ -2,28 +2,17 @@ import { NextPage, InferGetStaticPropsType } from "next";
 import { useRouter } from "next/router";
 import ErrorPage from "next/error";
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
 import { getAllPosts, getPostBySlug } from "../lib/api";
-import {
-  Box,
-  Heading,
-  Text,
-  Stack,
-  VStack,
-  Link as UILink,
-} from "@chakra-ui/react";
-import {
-  FaExternalLinkAlt,
-  FaAngleDoubleLeft,
-  FaCalendarDay,
-} from "react-icons/fa";
+import { Box, Heading, Text, Stack, VStack } from "@chakra-ui/react";
+import { FaAngleDoubleLeft, FaCalendarDay } from "react-icons/fa";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import { serialize } from "next-mdx-remote/serialize";
 import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote";
 import imageSize from "rehype-img-size";
 import remarkGfm from "remark-gfm";
+import { components } from "../lib/mdxconverter";
 // import LinkCard from "../components/linkCard";
 // import { getOGP } from "../lib/ogp";
 
@@ -65,70 +54,6 @@ export const getStaticProps = async ({ params }: any) => {
       },
     },
   };
-};
-
-/**
- * next-mdx-remort で md to html へ変換するときに html タグを以下のコンポーネントに変換する
- */
-const components = {
-  img: (props: any) => {
-    return (
-      <Box w="${props.width}" h="${props.height}">
-        <Image
-          {...props}
-          src={"/" + props.src}
-          layout="responsive"
-          loading="lazy"
-          alt={props.alt}
-        />
-      </Box>
-    );
-  },
-  p: (props: any) => {
-    return (
-      <Text my="16px" lineHeight="27px" color="#383838">
-        {props.children}
-      </Text>
-    );
-  },
-  h2: (props: any) => {
-    return (
-      <Heading
-        as="h2"
-        pb="2"
-        my="6"
-        fontSize="22"
-        borderBottom="1px solid #5c93bb2b"
-      >
-        {props.children}
-      </Heading>
-    );
-  },
-  h3: (props: any) => {
-    return (
-      <Heading as="h3" size="md" fontSize="20">
-        {props.children}
-      </Heading>
-    );
-  },
-  a: (props: any) => {
-    if (props.href.includes("http")) {
-      return (
-        <UILink href={props.href} color="pink.300" isExternal>
-          {props.children}
-          <FaExternalLinkAlt style={{ display: "inline", marginLeft: "3px" }} />
-        </UILink>
-      );
-    } else {
-      return (
-        <Link href={props.href}>
-          <a>
-            <Text color="pink.300">{props.children}</Text>
-          </a>
-        </Link>
-      );
-    }
-  },
 };
 
 const Post: NextPage<Props> = ({ post }) => {
