@@ -20,6 +20,8 @@ import { serialize } from "next-mdx-remote/serialize";
 import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote";
 import imageSize from "rehype-img-size";
 import remarkGfm from "remark-gfm";
+// import LinkCard from "../components/linkCard";
+// import { getOGP } from "../lib/ogp";
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
@@ -38,7 +40,13 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async ({ params }: any) => {
+  // MD 取得
   const post = getPostBySlug(params.slug);
+
+  // OGP 取得
+  // const ogpdata = getOGP("");
+
+  // MDX 化
   const mdxSource = await serialize(post.content, {
     mdxOptions: {
       remarkPlugins: [remarkGfm], //Table tag 用
@@ -82,13 +90,10 @@ const components = {
     return (
       <Heading
         as="h2"
-        bg="#019cd0"
-        color="white"
-        p="3"
-        rounded="md"
-        fontSize="1.143em"
+        pb="2"
         my="6"
-        fontWeight="bold"
+        fontSize="22"
+        borderBottom="1px solid #5c93bb2b"
       >
         {props.children}
       </Heading>
@@ -96,7 +101,7 @@ const components = {
   },
   h3: (props: any) => {
     return (
-      <Heading as="h3" size="md">
+      <Heading as="h3" size="md" fontSize="20">
         {props.children}
       </Heading>
     );
@@ -143,23 +148,32 @@ const Post: NextPage<Props> = ({ post }) => {
             bg="white"
             boxShadow="base"
           >
-            <Heading as="h1" pb="2">
+            <Heading
+              as="h1"
+              pb="2"
+              fontSize="26"
+              borderBottom="1px solid #5c93bb2b"
+            >
               {post.title}
             </Heading>
 
             <Box
               sx={{
                 ul: {
-                  bg: "#EEF9FF",
-                  p: "3",
-                  pl: "12",
+                  pl: "5",
                   my: "6",
                   rounded: "md",
-                  fontWeight: "bold",
+                },
+                li: {
+                  my: "6",
                 },
               }}
             >
-              <MDXRemote {...post.mdxSource} components={components} />
+              <MDXRemote
+                {...post.mdxSource}
+                components={components}
+                scope={post}
+              />
             </Box>
             <Link href="/">
               <a>
