@@ -42,7 +42,7 @@ export const components = {
   },
   h3: (props: any) => {
     return (
-      <Heading as="h3" size="md" fontSize="20">
+      <Heading as="h3" size="md" fontSize="19" my="6">
         {props.children}
       </Heading>
     );
