@@ -106,6 +106,18 @@ const Post: NextPage<Props> = ({ post }) => {
                 li: {
                   my: "6",
                 },
+                table: {
+                  border: "1px #5c93bb2b solid",
+                },
+                td: {
+                  border: "1px #5c93bb2b solid",
+                  p: "2",
+                },
+                th: {
+                  border: "1px #5c93bb2b solid",
+                  bg: "gray.100",
+                  p: "2",
+                },
               }}
             >
               <MDXRemote
