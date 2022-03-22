@@ -55,7 +55,9 @@ const Home: NextPage<Props> = ({ allPosts, allCategories }) => {
                   />
                   <Stack>
                     <Box p={2} rounded="md" w="100%">
-                      <Text fontSize={10}>{post.date}</Text>
+                      <Text fontSize="13" color="gray.500">
+                        {post.date}
+                      </Text>
                       <Heading as="h2" size="sm">
                         {post.title}
                       </Heading>

@@ -13,7 +13,11 @@ import {
   VStack,
   Link as UILink,
 } from "@chakra-ui/react";
-import { FaExternalLinkAlt, FaAngleDoubleLeft } from "react-icons/fa";
+import {
+  FaExternalLinkAlt,
+  FaAngleDoubleLeft,
+  FaCalendarDay,
+} from "react-icons/fa";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import { serialize } from "next-mdx-remote/serialize";
@@ -156,6 +160,15 @@ const Post: NextPage<Props> = ({ post }) => {
             >
               {post.title}
             </Heading>
+            <Text color="gray.400" fontSize="14">
+              <FaCalendarDay
+                style={{
+                  display: "inline",
+                  marginRight: "7px",
+                }}
+              />
+              <time dateTime={post.date}>{post.date} に公開</time>
+            </Text>
 
             <Box
               sx={{
