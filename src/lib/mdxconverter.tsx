@@ -14,7 +14,7 @@ export const components = {
           {...props}
           src={"/" + props.src}
           layout="responsive"
-          loading="lazy"
+          // loading="lazy"
           alt={props.alt}
         />
       </Box>
