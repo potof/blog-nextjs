@@ -1,10 +1,19 @@
 import { Box, Stack, Image, Text, Link as UILink } from "@chakra-ui/react";
 import Link from "next/link";
 import { FaTwitter, FaGithub, FaBook } from "react-icons/fa";
+import Head from "next/head";
+import Script from "next/script";
 
 const Header = () => {
   return (
     <>
+      <Head>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1536057836501643"
+          crossOrigin="anonymous"
+        ></Script>
+      </Head>
       <Box
         display="flex"
         alignItems="center"
