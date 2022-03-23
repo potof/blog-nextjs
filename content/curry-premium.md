@@ -8,29 +8,19 @@ coverImage: "DSC00901.jpeg"
 
 野良レトルトカレーとは？
 
-子供から大人までみんな大好き**「カレー」**・・・  
-見失った自分を探しにいく**「旅行」**・・・  
-無数にあるレトルトカレーのなかで、
-
-**ふらっと立ち寄ったお店で運命的に出会う、それが「野良カレー」**
-
-\[tensen\]
+子供から大人までみんな大好き **「カレー」** ・・・  
+見失った自分を探しにいく **「旅行」** ・・・  
+無数にあるレトルトカレーのなかで、**ふらっと立ち寄ったお店で運命的に出会う、それが「野良カレー」**
 
 こんにちは。カレー大好きぽとふです。
 
-**今回は「野良レトルトカレー」1 回目として「北海道カレー本舗 PREMIUM」の出会いからお食事までをご紹介します。**
-
-\[itemlink post_id="1414"\]
+今回は「野良レトルトカレー」1 回目として「北海道カレー本舗 PREMIUM」の出会いからお食事までをご紹介します。
 
 ## 出会い
 
 2019 年 3 月、北海道のおしゃれカフェを巡って新千歳空港でぼんやりしていました。
 
-![https://potof.net/wp-content/uploads/2019/10/profile.jpeg](images/profile.jpeg)potof
-
 自分へのお土産にルタオのドゥーブルフロマージュでも買うか・・・・
-
-![https://potof.net/wp-content/uploads/2019/10/profile.jpeg](images/profile.jpeg)potof
 
 ん？ あ、あの「PREMIUM」な輝きは一体・・・！
 
@@ -40,11 +30,7 @@ coverImage: "DSC00901.jpeg"
 
 ![](images/DSC00902.jpeg)
 
-![https://potof.net/wp-content/uploads/2019/10/profile.jpeg](images/profile.jpeg)potof
-
 こ、これは「**北海道カレー本舗 PREMIIUM**」だと！？
-
-![https://potof.net/wp-content/uploads/2019/10/profile.jpeg](images/profile.jpeg)potof
 
 って、浅草生まれ・・・？ まあ、北海道って書いてあればハズレは無いだろう・・・
 
@@ -54,27 +40,19 @@ coverImage: "DSC00901.jpeg"
 
 ![](images/DSC00905.jpeg)
 
-![https://potof.net/wp-content/uploads/2019/10/profile.jpeg](images/profile.jpeg)potof
-
 見た目はルーがねちょねちょ系か・・・
 
 ![](images/DSC00903.jpeg)
 
-![https://potof.net/wp-content/uploads/2019/10/profile.jpeg](images/profile.jpeg)potof
-
 ん？ よく見たら**たくさんの牛肉がごろごろ**しているぞ！
 
 ![](images/DSC00908.jpeg)
-
-![https://potof.net/wp-content/uploads/2019/10/profile.jpeg](images/profile.jpeg)potof
 
 こ、これは・・・**美味しい！！**
 
 スプーンですくうと**ごろりとしたとろとろの十勝和牛**が粘度の高いルーと絡み合って**濃厚な味わい**を生み出している・・！
 
 ![](images/DSC00907.jpeg)
-
-![https://potof.net/wp-content/uploads/2019/10/profile.jpeg](images/profile.jpeg)potof
 
 止まらない！ すぷーんが・・・とまらないい！！
 
@@ -84,8 +62,6 @@ coverImage: "DSC00901.jpeg"
 
 ![](images/DSC00904.jpeg)
 
-![https://potof.net/wp-content/uploads/2019/10/profile.jpeg](images/profile.jpeg)potof
-
 一箱で 2 つも入っているの・・・これぞ大人のたしなみ・・・
 
 ## 「**北海道カレー本舗 PREMIUM**」のまとめ
@@ -93,5 +69,3 @@ coverImage: "DSC00901.jpeg"
 パッケージからはあまり期待していなかったのですが、食べてみるとほろほろの牛肉がたくさん入っていて、ルーもおいしく満足度が高いカレーでした。
 
 レトルトカレーなので、お仕事で忙しいときに向けて保管用にしておくのがおすすめです。
-
-\[itemlink post_id="1414"\]

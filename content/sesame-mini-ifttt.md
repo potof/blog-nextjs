@@ -59,7 +59,7 @@ coverImage: "DSC01823.jpeg"
 
 ![](images/DSC01819.jpeg)
 
-\[itemlink post_id="1895"\]
+[Sesame mini](https://amzn.to/3uDRKdB)
 
 ## 我が家の使い方
 
@@ -157,8 +157,6 @@ Alexa 連携の方法はこちら（SESAME 公式サイト）。
 
 [SESAME と Alexa 連携方法](https://ameblo.jp/candyhouse-inc/entry-12395343473.html)
 
-\[itemlink post_id="1904"\]
-
 ## 試したけど微妙だった使い方
 
 今のところは iPhone からの手動操作か、Alexa の音声操作で利用していますが、以下の方法は採用できませんでした。
@@ -196,16 +194,10 @@ IFTTT はもちろん、Alexa 等の音声コントロールとも連動でき�
 
 本当に物理的な鍵がスマートフォンに置きかわる利点しかないのでおすすめできません。
 
-\[itemlink post_id="1902"\]
-
 ## Sesame mini の使い方まとめ
 
 画面をぽちぽちするだけでできる便利な使い方をご紹介しました。
 
 些細ですが IFTTT と連動することでちょっとしたストレスがなくなるのでおすすめです。
 
-\[itemlink post_id="1895"\]
-
-\[itemlink post_id="1902"\]
-
-\[itemlink post_id="1904"\]
+[Sesame mini](https://amzn.to/3uDRKdB)

@@ -175,7 +175,7 @@ coverImage: "DSC02028.jpeg"
 
 なんか不思議とハマるので札幌に行く際はぜひ立ち寄ってみて感想を教えて下さい！
 
-\[itemlink post_id="2076"\]
+[ジンギスカン]](https://amzn.to/36EkOsM)
 
 ### お店の場所
 

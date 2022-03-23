@@ -34,7 +34,7 @@ coverImage: "DSC01892.jpeg"
 
 なお、Sony のコンデジ（RX100M6）で撮影しました。カメラ知識が無いので細かいところは分かりませんがなかなか良く撮れました！
 
-\[itemlink post_id="1766"\]
+[Sony RX100M6](https://amzn.to/3NocRcm)
 
 ## 渋谷スカイとは？
 
@@ -227,4 +227,4 @@ JR 渋谷駅から徒歩 5 分程度で近いですね。
 
 今回使用したカメラはこちらです。
 
-\[itemlink post_id="1766"\]
+[Sony RX100M6](https://amzn.to/3NocRcm)
