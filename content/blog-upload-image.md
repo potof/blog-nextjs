@@ -31,7 +31,7 @@ iPhone 画像を wordpress にアップロードするショートカットを�
 
 いますぐにでも必要な人は下のボタンをタップしてください。
 
-\[btn href="https://www.icloud.com/shortcuts/8ab577dd33534108b3b04a1195dd67f7" class="raised main-bc strong"\]画像をリサイズ、圧縮して Wordpress にアップロードする\[/btn\]
+https://www.icloud.com/shortcuts/8ab577dd33534108b3b04a1195dd67f7
 
 ## 事前準備
 
@@ -63,7 +63,7 @@ iPhone 画像を wordpress にアップロードするショートカットを�
 
 ![](images/IMG_8048-473x1024.jpeg)
 
-\[memo title=" チェックつける項目がない場合 "\]なんでもいいので 1 回ショートカットを実行すると表示されます\[/memo\]
+なんでもいいので 1 回ショートカットを実行すると表示されます。
 
 ### マイショートカットをダウンロード
 
@@ -73,7 +73,7 @@ iPhone 画像を wordpress にアップロードするショートカットを�
 
 ショートカットマクロのダウンロード URL
 
-\[btn href="https://www.icloud.com/shortcuts/8ab577dd33534108b3b04a1195dd67f7" class="raised main-bc strong"\]画像をリサイズ、圧縮して Wordpress にアップロードする\[/btn\]
+https://www.icloud.com/shortcuts/8ab577dd33534108b3b04a1195dd67f7
 
 追加されたら準備は完了です。
 
