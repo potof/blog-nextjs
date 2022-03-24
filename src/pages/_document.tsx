@@ -18,11 +18,6 @@ const MyDocument = () => {
         <meta property="og:image" content={`${url}/logo_clear2.png`} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="format-detection" content="telephone=no" />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1536057836501643"
-          crossOrigin="anonymous"
-        ></script>
       </Head>
       <body>
         <Main />
