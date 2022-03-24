@@ -37,7 +37,11 @@ const Home: NextPage<Props> = ({ allPosts, allCategories }) => {
       <Box display="flex" alignItems="center" justifyContent="center" py="3">
         <Stack w="780px" h="100%">
           {allPosts.map((post) => (
-            <Link href="/[slug]" as={`/${post.slug}`} key={post.title}>
+            <Link
+              href="/[slug]"
+              as={`/${post.slug.replace(".md", "")}`}
+              key={post.title}
+            >
               <a>
                 <HStack
                   p={3}

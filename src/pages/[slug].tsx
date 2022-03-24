@@ -24,7 +24,7 @@ export const getStaticPaths = async () => {
     paths: posts.map((post) => {
       return {
         params: {
-          slug: post.slug,
+          slug: post.slug.replace(".md", ""),
         },
       };
     }),
@@ -34,7 +34,7 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async ({ params }: any) => {
   // MD 取得
-  const post = getPostBySlug(params.slug);
+  const post = getPostBySlug(params.slug + ".md");
 
   // OGP 取得
   // const ogpdata = getOGP("");
