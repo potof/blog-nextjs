@@ -12,6 +12,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
         data-ad-client="ca-pub-1536057836501643"
         async
         strategy="afterInteractive"
+        crossOrigin="anonymous"
         onError={(e) => {
           console.error("Script failed to load", e);
         }}
