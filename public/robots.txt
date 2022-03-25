@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://potof.net
+
+# Sitemaps
+Sitemap: https://potof.net/sitemap.xml
